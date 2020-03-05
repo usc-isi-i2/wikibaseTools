@@ -18,7 +18,7 @@ setuptools.setup(
     description="A small package for assiting working with local wikibase instances",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/",
+    url="https://github.com/usc-isi-i2/wikibaseTools",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
