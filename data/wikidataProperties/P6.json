@@ -1,0 +1,2235 @@
+{
+  "entities": {
+    "P6": {
+      "pageid": 3916689,
+      "ns": 120,
+      "title": "Property:P6",
+      "lastrevid": 1121805621,
+      "modified": "2020-02-23T11:31:57Z",
+      "type": "property",
+      "datatype": "wikibase-item",
+      "id": "P6",
+      "labels": {
+        "en": { "language": "en", "value": "head of government" },
+        "it": { "language": "it", "value": "capo del governo" },
+        "de": {
+          "language": "de",
+          "value": "Leiter der Regierung oder Verwaltung"
+        },
+        "fr": { "language": "fr", "value": "chef de l'ex\u00e9cutif" },
+        "fi": { "language": "fi", "value": "hallituksen johtaja" },
+        "cs": { "language": "cs", "value": "p\u0159edstavitel" },
+        "zh-hans": {
+          "language": "zh-hans",
+          "value": "\u653f\u5e9c\u9996\u957f"
+        },
+        "hu": {
+          "language": "hu",
+          "value": "korm\u00e1nyzati vagy k\u00f6zigazgat\u00e1si vezet\u0151"
+        },
+        "hr": { "language": "hr", "value": "\u010delnik vlade" },
+        "es": { "language": "es", "value": "jefe de gobierno" },
+        "ru": {
+          "language": "ru",
+          "value": "\u0433\u043b\u0430\u0432\u0430 \u043f\u0440\u0430\u0432\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430"
+        },
+        "nl": { "language": "nl", "value": "bestuurshoofd" },
+        "el": {
+          "language": "el",
+          "value": "\u03b5\u03c0\u03b9\u03ba\u03b5\u03c6\u03b1\u03bb\u03ae\u03c2 \u03b1\u03bd\u03ce\u03c4\u03b1\u03c4\u03bf\u03c5 \u03b4\u03b9\u03bf\u03b9\u03ba\u03b7\u03c4\u03b9\u03ba\u03bf\u03cd \u03bf\u03c1\u03b3\u03ac\u03bd\u03bf\u03c5"
+        },
+        "lmo": { "language": "lmo", "value": "sind\u00e9ch" },
+        "pl": { "language": "pl", "value": "szef rz\u0105du lub urz\u0119du" },
+        "sr": {
+          "language": "sr",
+          "value": "\u043f\u0440\u0435\u0434\u0441\u0435\u0434\u043d\u0438\u043a \u0432\u043b\u0430\u0434\u0435"
+        },
+        "ca": { "language": "ca", "value": "cap de govern" },
+        "zh": { "language": "zh", "value": "\u653f\u5e9c\u9996\u957f" },
+        "ilo": { "language": "ilo", "value": "daulo ti lokal a gobierno" },
+        "be": {
+          "language": "be",
+          "value": "\u043a\u0456\u0440\u0430\u045e\u043d\u0456\u043a \u0443\u0440\u0430\u0434\u0430"
+        },
+        "fa": {
+          "language": "fa",
+          "value": "\u0631\u0626\u06cc\u0633\u200c\u062c\u0645\u0647\u0648\u0631 \u06cc\u0627 \u0634\u0647\u0631\u062f\u0627\u0631"
+        },
+        "nb": {
+          "language": "nb",
+          "value": "\u00f8verste politiske forvaltningsleder"
+        },
+        "pt-br": { "language": "pt-br", "value": "chefe do executivo" },
+        "ko": { "language": "ko", "value": "\ud589\uc815\ubd80 \uc218\ubc18" },
+        "ja": { "language": "ja", "value": "\u884c\u653f\u5e9c\u306e\u9577" },
+        "uk": {
+          "language": "uk",
+          "value": "\u0433\u043e\u043b\u043e\u0432\u0430 \u0443\u0440\u044f\u0434\u0443"
+        },
+        "lv": { "language": "lv", "value": "vald\u012bbas vad\u012bt\u0101js" },
+        "eo": { "language": "eo", "value": "estro" },
+        "th": {
+          "language": "th",
+          "value": "\u0e2b\u0e31\u0e27\u0e2b\u0e19\u0e49\u0e32\u0e23\u0e31\u0e10\u0e1a\u0e32\u0e25"
+        },
+        "be-tarask": {
+          "language": "be-tarask",
+          "value": "\u043a\u0456\u0440\u0430\u045e\u043d\u0456\u043a \u0430\u0434\u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0430\u0446\u044b\u0456"
+        },
+        "nds": { "language": "nds", "value": "Baas vun de Verwaltung" },
+        "ro": { "language": "ro", "value": "\u0219ef de guvern" },
+        "vi": {
+          "language": "vi",
+          "value": "ng\u01b0\u1eddi \u0111\u1ee9ng \u0111\u1ea7u ch\u00ednh quy\u1ec1n"
+        },
+        "id": { "language": "id", "value": "kepala pemerintahan" },
+        "min": { "language": "min", "value": "kapalo pamarintahan satampek" },
+        "ka": {
+          "language": "ka",
+          "value": "\u10db\u10d7\u10d0\u10d5\u10e0\u10dd\u10d1\u10d8\u10e1 \u10db\u10d4\u10d7\u10d0\u10e3\u10e0\u10d8"
+        },
+        "uz": {
+          "language": "uz",
+          "value": "mahalliy hokimiyat boshlig\u02bbi"
+        },
+        "gl": { "language": "gl", "value": "xefe do goberno" },
+        "pt": { "language": "pt", "value": "chefe do executivo" },
+        "zh-tw": { "language": "zh-tw", "value": "\u653f\u5e9c\u9996\u9577" },
+        "zh-hant": {
+          "language": "zh-hant",
+          "value": "\u653f\u5e9c\u9996\u9577"
+        },
+        "en-gb": { "language": "en-gb", "value": "head of government" },
+        "af": { "language": "af", "value": "hoof van plaaslike regering" },
+        "da": { "language": "da", "value": "leder af forvaltning" },
+        "sv": { "language": "sv", "value": "regeringschef" },
+        "sco": { "language": "sco", "value": "heid o govrenment" },
+        "en-ca": { "language": "en-ca", "value": "head of government" },
+        "sk": { "language": "sk", "value": "ved\u00faci predstavite\u013e" },
+        "nds-nl": { "language": "nds-nl", "value": "heufd van lokaal bestuur" },
+        "nn": { "language": "nn", "value": "styresmaktsleiar" },
+        "bn": {
+          "language": "bn",
+          "value": "\u09b8\u09b0\u0995\u09be\u09b0\u09c7\u09b0 \u09aa\u09cd\u09b0\u09a7\u09be\u09a8"
+        },
+        "oc": { "language": "oc", "value": "cap de l'executiu" },
+        "mk": {
+          "language": "mk",
+          "value": "\u0448\u0435\u0444 \u043d\u0430 \u0432\u043b\u0430\u0434\u0430\u0442\u0430/\u0443\u043f\u0440\u0430\u0432\u0430\u0442\u0430"
+        },
+        "tl": { "language": "tl", "value": "puno ng pamahalaan" },
+        "gu": {
+          "language": "gu",
+          "value": "\u0ab8\u0ab0\u0a95\u0abe\u0ab0\u0aa8\u0abe \u0ab5\u0aa1\u0abe"
+        },
+        "sl": { "language": "sl", "value": "nosilec oblasti" },
+        "ms": { "language": "ms", "value": "ketua kerajaan" },
+        "ckb": { "language": "ckb", "value": "\u0633\u06d5\u0631\u06c6\u06a9" },
+        "yi": {
+          "language": "yi",
+          "value": "\u05e8\u05e2\u05d2\u05d9\u05e8\u05d5\u05e0\u05d2 \u05d4\u05d5\u05d9\u05e4\u05d8"
+        },
+        "sr-ec": {
+          "language": "sr-ec",
+          "value": "\u043f\u0440\u0435\u0434\u0441\u0435\u0434\u043d\u0438\u043a \u0432\u043b\u0430\u0434\u0435"
+        },
+        "zh-cn": { "language": "zh-cn", "value": "\u653f\u5e9c\u9996\u957f" },
+        "is": { "language": "is", "value": "stj\u00f3rnarlei\u00f0togi" },
+        "mzn": {
+          "language": "mzn",
+          "value": "\u0634\u0647\u0631\u062f\u0627\u0631"
+        },
+        "rm": { "language": "rm", "value": "schef da la regenza" },
+        "et": { "language": "et", "value": "valitsusjuht" },
+        "ta": {
+          "language": "ta",
+          "value": "\u0b85\u0bb0\u0b9a\u0bbf\u0ba9\u0bcd \u0ba4\u0bb2\u0bc8\u0bb5\u0bb0\u0bcd"
+        },
+        "la": { "language": "la", "value": "gubernator" },
+        "tt": {
+          "language": "tt",
+          "value": "\u0445\u04e9\u043a\u04af\u043c\u04d9\u0442 \u0431\u0430\u0448\u043b\u044b\u0433\u044b"
+        },
+        "te": {
+          "language": "te",
+          "value": "\u0c2a\u0c4d\u0c30\u0c2d\u0c41\u0c24\u0c4d\u0c35 \u0c2e\u0c41\u0c16\u0c4d\u0c2f\u0c3e\u0c27\u0c3f\u0c15\u0c3e\u0c30\u0c3f"
+        },
+        "zh-hk": { "language": "zh-hk", "value": "\u653f\u5e9c\u9996\u9577" },
+        "or": {
+          "language": "or",
+          "value": "\u0b38\u0b30\u0b15\u0b3e\u0b30 \u0b2e\u0b41\u0b16\u0b4d\u0b5f"
+        },
+        "he": {
+          "language": "he",
+          "value": "\u05e8\u05d0\u05e9 \u05d4\u05e8\u05e9\u05d5\u05ea \u05d4\u05de\u05d5\u05e9\u05dc\u05ea"
+        },
+        "hi": {
+          "language": "hi",
+          "value": "\u0936\u093e\u0938\u0928\u093e\u0927\u094d\u092f\u0915\u094d\u0937"
+        },
+        "br": { "language": "br", "value": "penn an aotrouniezh" },
+        "ia": { "language": "ia", "value": "capite de governamento" },
+        "sr-el": { "language": "sr-el", "value": "predsednik vlade" },
+        "mg": { "language": "mg", "value": "filohan'ny governemanta" },
+        "eu": { "language": "eu", "value": "gobernuburua" },
+        "scn": { "language": "scn", "value": "capu d\u00fb guvernu" },
+        "bs": { "language": "bs", "value": "prvi \u010dovjek uprave" },
+        "ne": {
+          "language": "ne",
+          "value": "\u0938\u0930\u0915\u093e\u0930 \u092a\u094d\u0930\u092e\u0941\u0916"
+        },
+        "ar": {
+          "language": "ar",
+          "value": "\u0631\u0626\u064a\u0633 \u0627\u0644\u062d\u0643\u0648\u0645\u0629"
+        },
+        "cy": { "language": "cy", "value": "pennaeth llywodraeth" },
+        "lt": { "language": "lt", "value": "vyriausyb\u0117s vadovas" },
+        "ast": { "language": "ast", "value": "cabezaleru del gobiernu" },
+        "ps": {
+          "language": "ps",
+          "value": "\u062f \u062d\u06a9\u0648\u0645\u062a \u0645\u0634\u0631"
+        },
+        "kn": {
+          "language": "kn",
+          "value": "\u0cb8\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0ca6 \u0cae\u0cc1\u0c96\u0ccd\u0caf\u0cb8\u0ccd\u0ca5\u0cb0\u0cc1"
+        },
+        "zh-mo": { "language": "zh-mo", "value": "\u653f\u5e9c\u9996\u9577" },
+        "hsb": {
+          "language": "hsb",
+          "value": "nawoda knje\u017eerstwa abo zarjadnistwa"
+        },
+        "pa": {
+          "language": "pa",
+          "value": "\u0a38\u0a30\u0a15\u0a3e\u0a30 \u0a26\u0a3e \u0a2e\u0a41\u0a16\u0a40"
+        },
+        "ml": {
+          "language": "ml",
+          "value": "\u0d2d\u0d30\u0d23\u0d3e\u0d27\u0d3f\u0d15\u0d3e\u0d30\u0d3f"
+        },
+        "ku-latn": {
+          "language": "ku-latn",
+          "value": "serok\u00ea r\u00eaveberiy\u00ea"
+        },
+        "tg": {
+          "language": "tg",
+          "value": "\u0441\u0430\u0440\u0432\u0430\u0440\u0438 \u04b3\u0443\u043a\u0443\u043c\u0430\u0442"
+        },
+        "hy": {
+          "language": "hy",
+          "value": "\u056f\u0561\u057c\u0561\u057e\u0561\u0580\u0578\u0582\u0569\u0575\u0561\u0576 \u0572\u0565\u056f\u0561\u057e\u0561\u0580"
+        },
+        "ba": {
+          "language": "ba",
+          "value": "\u0445\u04e9\u043a\u04af\u043c\u04d9\u0442 \u0431\u0430\u0448\u043b\u044b\u0493\u044b"
+        },
+        "bg": {
+          "language": "bg",
+          "value": "\u0440\u044a\u043a\u043e\u0432\u043e\u0434\u0438\u0442\u0435\u043b"
+        },
+        "zh-sg": { "language": "zh-sg", "value": "\u653f\u5e9c\u9996\u957f" },
+        "lb": {
+          "language": "lb",
+          "value": "Chef vun der Regierung oder Verwaltung"
+        },
+        "tcy": {
+          "language": "tcy",
+          "value": "\u0cb8\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0cca\u0ca4 \u0c97\u0cc1\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0cc6\u0cb0\u0ccd"
+        },
+        "yo": { "language": "yo", "value": "olor\u00ed \u00ecj\u1ecdba" },
+        "tr": { "language": "tr", "value": "ba\u015fbakan\u0131" },
+        "sq": { "language": "sq", "value": "kryetar i qeverisjes" },
+        "tg-cyrl": {
+          "language": "tg-cyrl",
+          "value": "\u0441\u0430\u0440\u0434\u043e\u0440\u0438 \u04b3\u0443\u043a\u0443\u043c\u0430\u0442"
+        },
+        "az": {
+          "language": "az",
+          "value": "h\u00f6kum\u0259t ba\u015f\u00e7\u0131s\u0131"
+        },
+        "ur": {
+          "language": "ur",
+          "value": "\u0633\u0631\u0628\u0631\u0627\u06c1 \u062d\u06a9\u0648\u0645\u062a"
+        },
+        "arz": {
+          "language": "arz",
+          "value": "\u0631\u0626\u064a\u0633 \u0627\u0644\u062d\u0643\u0648\u0645\u0647"
+        },
+        "ce": {
+          "language": "ce",
+          "value": "\u043f\u0440\u0430\u0432\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e\u043d \u043a\u043e\u0440\u0442\u0430"
+        },
+        "tt-cyrl": {
+          "language": "tt-cyrl",
+          "value": "\u0445\u04e9\u043a\u04af\u043c\u04d9\u0442 \u0431\u0430\u0448\u043b\u044b\u0433\u044b"
+        },
+        "mr": {
+          "language": "mr",
+          "value": "\u0938\u0930\u0915\u093e\u0930\u091a\u0947 \u092a\u094d\u0930\u092e\u0941\u0916"
+        },
+        "ha": { "language": "ha", "value": "shugaban gwamnati" },
+        "ga": { "language": "ga", "value": "ceannaire an rialtais" },
+        "diq": { "language": "diq", "value": "Serdar" },
+        "fo": { "language": "fo", "value": "stj\u00f3rnarlei\u00f0ari" },
+        "hyw": {
+          "language": "hyw",
+          "value": "\u0572\u0565\u056c\u0561\u057e\u0561\u0580\u056b \u057a\u0561\u0577\u057f\u0585\u0576"
+        },
+        "nqo": {
+          "language": "nqo",
+          "value": "\u07df\u07e5\u07ca\u07ec\u07df\u07cc\u07ec\u07df\u07cc \u07de\u07ce\u07f2\u07ec\u07d5\u07cc\u07ee"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "head of the executive power of this town, city, municipality, state, country, or other governmental body"
+        },
+        "hr": {
+          "language": "hr",
+          "value": "izvr\u0161ni funkcioner uprave grada, op\u0161tine ili drugog organa lokalne samouprave"
+        },
+        "fr": {
+          "language": "fr",
+          "value": "personne publique charg\u00e9e du pouvoir ex\u00e9cutif (quel que soit le niveau, y compris national)"
+        },
+        "de": {
+          "language": "de",
+          "value": "Leiter einer Exekutive auf allen Ebenen, einschlie\u00dflich der nationalen"
+        },
+        "es": {
+          "language": "es",
+          "value": "m\u00e1xima autoridad administrativa y legislativa de un pueblo, ciudad, municipio, pa\u00eds u otros organismos gubernamentales"
+        },
+        "it": {
+          "language": "it",
+          "value": "capo amministrativo di uno Stato, citt\u00e0, comune o municipalit\u00e0"
+        },
+        "he": {
+          "language": "he",
+          "value": "\u05e8\u05d0\u05e9 \u05e2\u05d9\u05e8, \u05e8\u05d0\u05e9 \u05de\u05d5\u05e2\u05e6\u05d4, \u05de\u05d3\u05d9\u05e0\u05d4"
+        },
+        "el": {
+          "language": "el",
+          "value": "\u03ba\u03cd\u03c1\u03b9\u03bf\u03c2 \u03b4\u03b9\u03bf\u03b9\u03ba\u03b7\u03c4\u03ae\u03c2 \u03bc\u03b9\u03b1\u03c2 \u03c7\u03ce\u03c1\u03b1\u03c2, \u03c0\u03cc\u03bb\u03b7\u03c2, \u03ba\u03c9\u03bc\u03cc\u03c0\u03bf\u03bb\u03b7\u03c2, \u03b4\u03ae\u03bc\u03bf\u03c5"
+        },
+        "cs": {
+          "language": "cs",
+          "value": "\u0161\u00e9f exekutivy tohoto m\u011bsta, st\u00e1tu nebo jin\u00e9ho org\u00e1nu v\u00fdkonn\u00e9 moci"
+        },
+        "ilo": {
+          "language": "ilo",
+          "value": "kangrunaan nga administrador ti maysa nga ili, siudad wenno munisipalidad"
+        },
+        "pt-br": {
+          "language": "pt-br",
+          "value": "chefe administrativo de uma cidade, munic\u00edpio, pa\u00eds ou outra divis\u00e3o governamental"
+        },
+        "lv": {
+          "language": "lv",
+          "value": "pils\u0113tas, pa\u0161vald\u012bbas, \u0161tata, valsts vai cita p\u0101rvaldes org\u0101na izpildvaras vad\u012bt\u0101js"
+        },
+        "ca": {
+          "language": "ca",
+          "value": "cap del govern municipal, estatal, nacional o d'altres organismes de govern"
+        },
+        "fi": {
+          "language": "fi",
+          "value": "hallinnon johtaja kaupungissa, kunnassa, osavaltiossa, maassa tai muussa hallinnollisessa yksik\u00f6ss\u00e4"
+        },
+        "ro": {
+          "language": "ro",
+          "value": "\u0219eful guvernului, sau administra\u021biei ora\u0219ului, comunei"
+        },
+        "nl": {
+          "language": "nl",
+          "value": "hoofd van de uitvoerende macht van het bestuursniveau (burgemeester, gouverneur, regeringsleider, etc.)"
+        },
+        "id": {
+          "language": "id",
+          "value": "kepala pemerintahan kota, kabupaten, negara bagian, provinsi, negara atau lembaga pemerintahan lainnya"
+        },
+        "min": {
+          "language": "min",
+          "value": "kapalo administrasi kota atau kabupaten"
+        },
+        "uz": {
+          "language": "uz",
+          "value": "shahar, shaharcha yoki boshqa turdagi aholi punktining boshlig\u02bbi"
+        },
+        "fa": {
+          "language": "fa",
+          "value": "\u0631\u0626\u06cc\u0633 \u062c\u0645\u0647\u0648\u0631\u060c \u0627\u0633\u062a\u0627\u0646\u062f\u0627\u0631\u060c \u0634\u0647\u0631\u062f\u0627\u0631\u060c \u062f\u0647\u062f\u0627\u0631"
+        },
+        "en-gb": {
+          "language": "en-gb",
+          "value": "head of the executive power of a town, city, municipality, state, country, or other governmental body"
+        },
+        "sv": {
+          "language": "sv",
+          "value": "premi\u00e4rminister, borgm\u00e4stare, kommunstyrelsens ordf\u00f6rande och liknande"
+        },
+        "ja": {
+          "language": "ja",
+          "value": "\u884c\u653f\u5e9c\uff08\u56fd\u3001\u90fd\u9053\u5e9c\u770c\u3001\u5e02\u3001\u753a\u3001\u305d\u306e\u4ed6\u306e\u81ea\u6cbb\u4f53\uff09\u3001\u653f\u5e9c\u6a5f\u95a2\u306e\u9577"
+        },
+        "nb": {
+          "language": "nb",
+          "value": "verv som \u00f8verste politiske leder for den offentlige forvaltningen av en by, et fylke, et land eller annen administrativ inndelingsenhet"
+        },
+        "en-ca": {
+          "language": "en-ca",
+          "value": "head of the executive power of a town, city, municipality, state, country, or other governmental body"
+        },
+        "nds-nl": {
+          "language": "nds-nl",
+          "value": "Bi'jveurbeeld in ne gemeente den b\u00f6rgemeister"
+        },
+        "nn": {
+          "language": "nn",
+          "value": "statsminister, ordf\u00f8rar, borgarmeister osv."
+        },
+        "da": {
+          "language": "da",
+          "value": "leder af forvaltning i lande og administrative inddelinger af lande (regeringschef, r\u00e5dsformand, borgmester etc.)"
+        },
+        "ru": {
+          "language": "ru",
+          "value": "\u0432\u044b\u0441\u0448\u0435\u0435 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0435 \u043b\u0438\u0446\u043e, \u0433\u043b\u0430\u0432\u0430 \u0438\u0441\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u043e\u0440\u0433\u0430\u043d\u0430 \u0433\u043e\u0440\u043e\u0434\u0430, \u043c\u0443\u043d\u0438\u0446\u0438\u043f\u0430\u043b\u0438\u0442\u0435\u0442\u0430, \u0441\u0442\u0440\u0430\u043d\u044b \u0438\u043b\u0438 \u0434\u0440\u0443\u0433\u043e\u0439 \u043f\u0440\u0430\u0432\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0439 \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u044b"
+        },
+        "gu": {
+          "language": "gu",
+          "value": "\u0a97\u0abe\u0aae, \u0ab6\u0ab9\u0ac7\u0ab0, \u0aa8\u0a97\u0ab0\u0aaa\u0abe\u0ab2\u0abf\u0a95\u0abe, \u0aa6\u0ac7\u0ab6 \u0a85\u0aa5\u0ab5\u0abe \u0a85\u0aa8\u0acd\u0aaf \u0ab8\u0ab0\u0a95\u0abe\u0ab0\u0ac0 \u0a8f\u0a95\u0aae\u0aa8\u0abe \u0ab5\u0aa1\u0abe"
+        },
+        "zh-hant": {
+          "language": "zh-hant",
+          "value": "\u6751\u93ae\u3001\u57ce\u5e02\u3001\u76f4\u8f44\u5340\u3001\u570b\u5bb6\u6216\u5176\u4ed6\u884c\u653f\u5340\u57df\u7684\u6700\u9ad8\u7ba1\u6cbb\u8005"
+        },
+        "zh-hans": {
+          "language": "zh-hans",
+          "value": "\u6751\u9547\u3001\u57ce\u5e02\u3001\u76f4\u8f96\u533a\u3001\u56fd\u5bb6\u6216\u5176\u4ed6\u884c\u653f\u533a\u57df\u7684\u6700\u9ad8\u7ba1\u6cbb\u8005"
+        },
+        "zh": {
+          "language": "zh",
+          "value": "\u6751\u9547\u3001\u57ce\u5e02\u3001\u76f4\u8f96\u533a\u3001\u56fd\u5bb6\u6216\u5176\u4ed6\u884c\u653f\u533a\u57df\u7684\u6700\u9ad8\u7ba1\u6cbb\u8005"
+        },
+        "ko": {
+          "language": "ko",
+          "value": "\ud56d\ubaa9 \uc8fc\uc81c\uc778 \ud589\uc815\ubd80 \ub610\ub294 \uc9c0\uc790\uccb4\uc758 \uc218\uc7a5"
+        },
+        "hu": {
+          "language": "hu",
+          "value": "\u00e1llamban, v\u00e1rosban, \u00f6nkorm\u00e1nyzatban a v\u00e9grehajt\u00f3 hatalom vezet\u0151je"
+        },
+        "ta": {
+          "language": "ta",
+          "value": "\u0ba8\u0b95\u0bb0\u0bcd, \u0bae\u0bbe\u0ba8\u0b95\u0bb0\u0bcd, \u0ba8\u0b95\u0bb0\u0bbe\u0b9f\u0bcd\u0b9a\u0bbf, \u0bae\u0bbe\u0ba8\u0bbf\u0bb2\u0bae\u0bcd, \u0ba8\u0bbe\u0b9f\u0bc1 \u0b85\u0bb2\u0bcd\u0bb2\u0ba4\u0bc1 \u0b85\u0bb0\u0b9a\u0bbe\u0b99\u0bcd\u0b95 \u0b85\u0bae\u0bc8\u0baa\u0bcd\u0baa\u0bbf\u0ba9\u0bcd \u0bae\u0bc7\u0bb2\u0bbe\u0ba3\u0bcd\u0bae\u0bc8 \u0b85\u0ba4\u0bbf\u0b95\u0bbe\u0bb0\u0bae\u0bcd \u0b95\u0bca\u0ba3\u0bcd\u0b9f \u0ba4\u0bb2\u0bc8\u0bb5\u0bb0\u0bcd"
+        },
+        "te": {
+          "language": "te",
+          "value": "\u0c2a\u0c1f\u0c4d\u0c1f\u0c23, \u0c28\u0c17\u0c30, \u0c30\u0c3e\u0c37\u0c4d\u0c1f\u0c4d\u0c30, \u0c26\u0c47\u0c36 \u0c32\u0c47\u0c26\u0c3e \u0c07\u0c24\u0c30 \u0c2a\u0c4d\u0c30\u0c2d\u0c41\u0c24\u0c4d\u0c35 \u0c38\u0c02\u0c38\u0c4d\u0c25 \u0c2f\u0c4a\u0c15\u0c4d\u0c15 \u0c2e\u0c41\u0c16\u0c4d\u0c2f \u0c2a\u0c30\u0c3f\u0c2a\u0c3e\u0c32\u0c28\u0c3e\u0c27\u0c3f\u0c15\u0c3e\u0c30\u0c3f"
+        },
+        "zh-cn": {
+          "language": "zh-cn",
+          "value": "\u6751\u9547\u3001\u57ce\u5e02\u3001\u76f4\u8f96\u533a\u3001\u56fd\u5bb6\u6216\u5176\u4ed6\u884c\u653f\u533a\u57df\u7684\u6700\u9ad8\u7ba1\u6cbb\u8005"
+        },
+        "zh-hk": {
+          "language": "zh-hk",
+          "value": "\u6751\u93ae\u3001\u57ce\u5e02\u3001\u76f4\u8f44\u5340\u3001\u570b\u5bb6\u6216\u5176\u4ed6\u884c\u653f\u5340\u57df\u7684\u6700\u9ad8\u7ba1\u6cbb\u8005"
+        },
+        "br": {
+          "language": "br",
+          "value": "den zo ar veli ganta\u00f1 en ur g\u00ear, bro pe Stad"
+        },
+        "uk": {
+          "language": "uk",
+          "value": "\u0433\u043e\u043b\u043e\u0432\u0430 \u0432\u0438\u0449\u043e\u0433\u043e \u043e\u0440\u0433\u0430\u043d\u0443 \u043c\u0456\u0441\u0446\u0435\u0432\u043e\u0457 \u0430\u0431\u043e \u0446\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u043e\u0457 \u0432\u043b\u0430\u0434\u0438, \u043a\u0440\u0430\u0457\u043d\u0438 \u0430\u0431\u043e \u0456\u043d\u0448\u043e\u0457 \u0443\u0440\u044f\u0434\u043e\u0432\u043e\u0457 \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0438 \u043f\u0435\u0432\u043d\u043e\u0457 \u044e\u0440\u0438\u0441\u0434\u0438\u043a\u0446\u0456\u0457"
+        },
+        "eu": {
+          "language": "eu",
+          "value": "herri, hiri, udalerri, eskualde edo herrialdearen agintari nagusia"
+        },
+        "scn": {
+          "language": "scn",
+          "value": "capu d\u00fb putiri esicutivu di na citt\u00e0, un cumuni, na riggioni, un pa\u00ecsi, o n'autra sorta di enti guvernativu"
+        },
+        "ar": {
+          "language": "ar",
+          "value": "\u0631\u0626\u064a\u0633 \u0627\u0644\u0633\u0644\u0637\u0629 \u0627\u0644\u062a\u0646\u0641\u064a\u0630\u064a\u0629 \u0641\u064a \u0642\u0631\u064a\u0629 \u0623\u0648 \u0645\u062f\u064a\u0646\u0629 \u0623\u0648 \u0645\u062d\u0627\u0641\u0638\u0629 \u0623\u0648 \u0648\u0644\u0627\u064a\u0629 \u0623\u0648 \u062f\u0648\u0644\u0629 \u0623\u0648 \u0623\u064a \u0647\u064a\u0626\u0629 \u062d\u0643\u0648\u0645\u064a\u0629 \u0623\u062e\u0631\u0649"
+        },
+        "ast": {
+          "language": "ast",
+          "value": "cabezaleru del gobiernu d'una ciud\u00e1, conceyu, rex\u00f3n, est\u00e1u o otra entid\u00e1 gubernamental"
+        },
+        "kn": {
+          "language": "kn",
+          "value": "\u0ca8\u0c97\u0cb0, \u0cae\u0cc1\u0ca8\u0ccd\u0cb8\u0cbf\u0caa\u0cbe\u0cb2\u0cbf\u0c9f\u0cbf, \u0cb0\u0cbe\u0c9c\u0ccd\u0caf \u0c85\u0ca5\u0cb5\u0cbe \u0ca6\u0cc7\u0cb6\u0ca6 \u0cb8\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0c97\u0cb3 \u0c85\u0ca7\u0ccd\u0caf\u0c95\u0ccd\u0cb7\u0cb0\u0cc1/\u0cae\u0cc1\u0c96\u0ccd\u0caf\u0cb8\u0ccd\u0ca5\u0cb0\u0cc1"
+        },
+        "bn": {
+          "language": "bn",
+          "value": "\u098f\u0995\u099f\u09bf \u09b6\u09b9\u09b0, \u09aa\u09cc\u09b0\u09b8\u09ad\u09be, \u09b0\u09be\u099c\u09cd\u09af, \u09a6\u09c7\u09b6, \u09ac\u09be \u0985\u09a8\u09cd\u09af\u09be\u09a8\u09cd\u09af \u09b8\u09b0\u0995\u09be\u09b0\u09bf \u09b8\u0982\u09b8\u09cd\u09a5\u09be\u09b0 \u09a8\u09bf\u09b0\u09cd\u09ac\u09be\u09b9\u09c0 \u0995\u09cd\u09b7\u09ae\u09a4\u09be\u09b0 \u09aa\u09cd\u09b0\u09a7\u09be\u09a8"
+        },
+        "hsb": {
+          "language": "hsb",
+          "value": "nawoda eksekutiwy na w\u0161\u011bch runinach"
+        },
+        "gl": {
+          "language": "gl",
+          "value": "m\u00e1xima autoridade administrativa e lexislativa dun pobo, cidade, concello, pa\u00eds ou outros organismos gubernamentais"
+        },
+        "bg": {
+          "language": "bg",
+          "value": "\u0440\u044a\u043a\u043e\u0432\u043e\u0434\u0438\u0442\u0435\u043b \u043d\u0430 \u0438\u0437\u043f\u044a\u043b\u043d\u0438\u0442\u0435\u043b\u043d\u0430\u0442\u0430 \u0432\u043b\u0430\u0441\u0442 \u0432 \u0441\u0435\u043b\u043e, \u0433\u0440\u0430\u0434, \u043e\u0431\u0449\u0438\u043d\u0430, \u043e\u0431\u043b\u0430\u0441\u0442, \u043f\u0440\u0430\u0432\u0438\u0442\u0435\u043b\u0441\u0442\u0432\u043e, \u0434\u044a\u0440\u0436\u0430\u0432\u0430 \u0438 \u0434\u0440\u0443\u0433\u0438 \u043f\u0440\u0430\u0432\u0438\u0442\u0435\u043b\u0441\u0442\u0432\u0435\u043d\u0438 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438"
+        },
+        "tcy": {
+          "language": "tcy",
+          "value": "\u0cae\u0cc1\u0ca8\u0ccd\u0cb8\u0cbf\u0caa\u0cbe\u0cb2\u0cbf\u0c9f\u0cbf, \u0cb0\u0cbe\u0c9c\u0ccd\u0caf \u0c85\u0ca5\u0c82\u0ca1\u0cbe \u0ca6\u0cc7\u0cb6\u0ca4 \u0cb8\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0cca\u0ca4 \u0c97\u0cc1\u0cb0\u0ccd\u0c95\u0cbe\u0cb0\u0cc6\u0cb0\u0ccd"
+        },
+        "tl": {
+          "language": "tl",
+          "value": "pinuno ng ehekutibong kapangyarihan ng isang bayan, lungsod, munisipalidad, estado, bansa, o iba pang katawan ng pamahalaan"
+        },
+        "tg-cyrl": {
+          "language": "tg-cyrl",
+          "value": "\u0448\u0430\u0445\u0441\u0438 \u043e\u043b\u0438\u0438 \u043c\u0430\u044a\u043c\u0443\u0440\u04e3, \u0441\u0430\u0440\u0434\u043e\u0440\u0438 \u04b3\u043e\u043a\u0438\u043c\u0438\u044f\u0442\u0438 \u0438\u04b7\u0440\u043e\u0438\u044f\u0438 \u0448\u0430\u04b3\u0440, \u043c\u0443\u043d\u0438\u0442\u0441\u0438\u043f\u0430\u043b\u0438\u0442\u0435\u0442\u0438 \u0434\u0430\u0432\u043b\u0430\u0442 \u0451 \u0434\u0438\u0433\u0430\u0440 \u0441\u043e\u0445\u0442\u043e\u0440\u0438 \u0434\u0430\u0432\u043b\u0430\u0442\u04e3"
+        },
+        "az": {
+          "language": "az",
+          "value": "\u015f\u0259h\u0259r, b\u0259l\u0259diyy\u0259, d\u00f6vl\u0259t v\u0259 ya dig\u0259r h\u00f6kum\u0259t qurumunun icraedici orqan\u0131n\u0131n r\u0259hb\u0259ri"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "bir kasaba, \u015fehir, belediye, devlet, \u00fclke veya di\u011fer h\u00fck\u00fbmet organlar\u0131n\u0131n y\u00fcr\u00fctme yetkisinin ba\u015f\u0131"
+        },
+        "ms": {
+          "language": "ms",
+          "value": "ketua kuasa eksekutif sebuah bandar, bandar raya, perbandaran, negeri, negara, atau badan kerajaan lain"
+        },
+        "bs": {
+          "language": "bs",
+          "value": "izvr\u0161ni funkcioner nekog organa javne uprave"
+        },
+        "mr": {
+          "language": "mr",
+          "value": "\u092f\u093e \u0936\u0939\u0930\u093e\u091a\u0947 \u0936\u0939\u0930, \u0928\u0917\u0930\u092a\u093e\u0932\u093f\u0915\u093e, \u0930\u093e\u091c\u094d\u092f, \u0926\u0947\u0936, \u0915\u093f\u0902\u0935\u093e \u0907\u0924\u0930 \u0936\u093e\u0938\u0915\u0940\u092f \u0938\u0902\u0938\u094d\u0925\u0947\u091a\u0947 \u0915\u093e\u0930\u094d\u092f\u0915\u093e\u0930\u0940 \u0905\u0927\u093f\u0915\u093e\u0930 \u092a\u094d\u0930\u092e\u0941\u0916"
+        },
+        "pt": {
+          "language": "pt",
+          "value": "chefe do poder executivo de uma cidade, munic\u00edpio, estado ou prov\u00edncia, pa\u00eds, ou outro tipo de organiza\u00e7\u00e3o governamental"
+        },
+        "zh-tw": {
+          "language": "zh-tw",
+          "value": "\u6751\u91cc\u3001\u57ce\u5e02\u3001\u76f4\u8f44\u5e02\u3001\u7701\u3001\u570b\u5bb6\u6216\u5176\u4ed6\u884c\u653f\u5340\u57df\u7684\u6700\u9ad8\u7ba1\u6cbb\u8005"
+        },
+        "sr": {
+          "language": "sr",
+          "value": "\u0433\u043b\u0430\u0432\u043d\u0438 \u0443 \u0438\u0437\u0432\u0440\u0448\u043d\u043e\u0458 \u0432\u043b\u0430\u0441\u0442\u0438 \u0433\u0440\u0430\u0434\u0430, \u043e\u043f\u0448\u0442\u0438\u043d\u0435, \u0434\u0440\u0436\u0430\u0432\u0435 \u0438\u043b\u0438 \u0434\u0440\u0443\u0433\u043e\u0433 \u0432\u043b\u0430\u0434\u0438\u043d\u043e\u0433 \u0442\u0435\u043b\u0430"
+        },
+        "pl": {
+          "language": "pl",
+          "value": "szef organu w\u0142adzy wykonawczej"
+        },
+        "fo": {
+          "language": "fo",
+          "value": "lei\u00f0ari av stj\u00f3rn ella umsiting \u00ed landi, kommunu, b\u00fdi, \u00f8ki"
+        },
+        "nqo": {
+          "language": "nqo",
+          "value": "\u07e1\u07cd\u07f2 \u07e0\u07ce\u07ec \u07e6\u07cb\u07eb \u07dd\u07ca\u07f2\u07ec\u07de\u07ca \u07df\u07e5\u07ca\u07df\u07cc\u07eb \u07df\u07ca\u07eb \u07db\u07cf \u07de\u07e3\u07d0\u07eb\u07f8 \u07d6\u07e1\u07ca\u07ec\u07e3\u07ca \u07de\u07e3\u07d0\u07eb\u07f8\u07de\u07ca\u07ec\u07dd\u07cf \u07de\u07e3\u07d0\u07eb\u07f8 \u07e5\u07df\u07ca\u07eb \u07de\u07ce\u07f2\u07ec\u07e0\u07ca\u07ec\u07db\u07cc\u07ee \u07de\u07ce\u07f2\u07ec\u07d5\u07cb\u07df\u07cb\u07f2 \u07e0\u07ce\u07ec \u07d8\u07d0\u07eb"
+        }
+      },
+      "aliases": {
+        "en": [
+          { "language": "en", "value": "mayor" },
+          { "language": "en", "value": "prime minister" },
+          { "language": "en", "value": "premier" },
+          { "language": "en", "value": "first minister" },
+          { "language": "en", "value": "head of national government" },
+          { "language": "en", "value": "chancellor" },
+          { "language": "en", "value": "governor" },
+          { "language": "en", "value": "government headed by" },
+          { "language": "en", "value": "executive power headed by" }
+        ],
+        "hr": [{ "language": "hr", "value": "gradona\u010delnik" }],
+        "el": [
+          {
+            "language": "el",
+            "value": "\u03ba\u03bf\u03b9\u03bd\u03bf\u03c4\u03ac\u03c1\u03c7\u03b7\u03c2"
+          },
+          {
+            "language": "el",
+            "value": "\u03b4\u03ae\u03bc\u03b1\u03c1\u03c7\u03bf\u03c2"
+          },
+          {
+            "language": "el",
+            "value": "\u03c0\u03c1\u03cc\u03b5\u03b4\u03c1\u03bf\u03c2"
+          },
+          { "language": "el", "value": "\u03cd\u03c0\u03b1\u03c4\u03bf\u03c2" },
+          {
+            "language": "el",
+            "value": "\u03c0\u03c1\u03c9\u03b8\u03c5\u03c0\u03bf\u03c5\u03c1\u03b3\u03cc\u03c2"
+          },
+          {
+            "language": "el",
+            "value": "\u03c0\u03b5\u03c1\u03b9\u03c6\u03b5\u03c1\u03b5\u03b9\u03ac\u03c1\u03c7\u03b7\u03c2"
+          },
+          {
+            "language": "el",
+            "value": "\u03bd\u03bf\u03bc\u03ac\u03c1\u03c7\u03b7\u03c2"
+          },
+          {
+            "language": "el",
+            "value": "\u03ba\u03c5\u03b2\u03b5\u03c1\u03bd\u03ae\u03c4\u03b7\u03c2"
+          },
+          {
+            "language": "el",
+            "value": "\u03b4\u03b9\u03bf\u03b9\u03ba\u03b7\u03c4\u03ae\u03c2"
+          }
+        ],
+        "fr": [
+          { "language": "fr", "value": "maire" },
+          { "language": "fr", "value": "bourgmestre" },
+          { "language": "fr", "value": "pr\u00e9sident de commune" },
+          { "language": "fr", "value": "syndic" },
+          { "language": "fr", "value": "pr\u00e9sident du gouvernement" },
+          { "language": "fr", "value": "pr\u00e9sident du Conseil" },
+          { "language": "fr", "value": "Premier ministre" },
+          { "language": "fr", "value": "pr\u00e9sident de la R\u00e9publique" },
+          { "language": "fr", "value": "syndique" }
+        ],
+        "pl": [
+          { "language": "pl", "value": "mer" },
+          { "language": "pl", "value": "prezydent miasta" },
+          { "language": "pl", "value": "szef w\u0142adzy wykonawczej" },
+          { "language": "pl", "value": "starosta" },
+          { "language": "pl", "value": "w\u00f3jt" },
+          { "language": "pl", "value": "prefekt" },
+          { "language": "pl", "value": "gubernator" },
+          { "language": "pl", "value": "premier" },
+          { "language": "pl", "value": "so\u0142tys" },
+          { "language": "pl", "value": "wojewoda" },
+          { "language": "pl", "value": "marsza\u0142ek wojew\u00f3dztwa" }
+        ],
+        "cs": [
+          { "language": "cs", "value": "starosta" },
+          { "language": "cs", "value": "prim\u00e1tor" },
+          { "language": "cs", "value": "guvern\u00e9r" },
+          { "language": "cs", "value": "premi\u00e9r" },
+          { "language": "cs", "value": "kancl\u00e9\u0159" },
+          { "language": "cs", "value": "p\u0159edseda vl\u00e1dy" }
+        ],
+        "ilo": [
+          { "language": "ilo", "value": "mayor" },
+          { "language": "ilo", "value": "alkalde" }
+        ],
+        "ru": [
+          { "language": "ru", "value": "\u043c\u044d\u0440" },
+          {
+            "language": "ru",
+            "value": "\u0433\u043b\u0430\u0432\u0430 \u043c\u0443\u043d\u0438\u0446\u0438\u043f\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f"
+          },
+          {
+            "language": "ru",
+            "value": "\u0433\u043b\u0430\u0432\u0430 \u043a\u043e\u043c\u043c\u0443\u043d\u044b"
+          },
+          {
+            "language": "ru",
+            "value": "\u0433\u043b\u0430\u0432\u0430 \u043e\u0431\u0449\u0438\u043d\u044b"
+          },
+          {
+            "language": "ru",
+            "value": "\u0431\u0443\u0440\u0433\u043e\u043c\u0438\u0441\u0442\u0440"
+          },
+          {
+            "language": "ru",
+            "value": "\u0433\u0440\u0430\u0434\u043e\u043d\u0430\u0447\u0430\u043b\u044c\u043d\u0438\u043a"
+          },
+          {
+            "language": "ru",
+            "value": "\u0433\u043b\u0430\u0432\u0430 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u0441\u0430\u043c\u043e\u0443\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u043c\u043e\u0439 \u0442\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u0438"
+          },
+          {
+            "language": "ru",
+            "value": "\u043f\u0440\u0435\u043c\u044c\u0435\u0440-\u043c\u0438\u043d\u0438\u0441\u0442\u0440"
+          },
+          {
+            "language": "ru",
+            "value": "\u0433\u0443\u0431\u0435\u0440\u043d\u0430\u0442\u043e\u0440"
+          },
+          {
+            "language": "ru",
+            "value": "\u043f\u0440\u0435\u0444\u0435\u043a\u0442"
+          },
+          {
+            "language": "ru",
+            "value": "\u043f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442 \u0442\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u0430\u043b\u044c\u043d\u043e\u0439 \u0435\u0434\u0438\u043d\u0438\u0446\u044b"
+          },
+          {
+            "language": "ru",
+            "value": "\u0433\u043b\u0430\u0432\u0430 \u0438\u0441\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u0432\u043b\u0430\u0441\u0442\u0438"
+          },
+          {
+            "language": "ru",
+            "value": "\u0433\u043b\u0430\u0432\u0430 \u043a\u0430\u0431\u0438\u043d\u0435\u0442\u0430 \u043c\u0438\u043d\u0438\u0441\u0442\u0440\u043e\u0432"
+          },
+          {
+            "language": "ru",
+            "value": "\u0433\u043b\u0430\u0432\u0430 \u0433\u043e\u0440\u043e\u0434\u0430"
+          },
+          {
+            "language": "ru",
+            "value": "\u043f\u0440\u0430\u0432\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e \u0432\u043e\u0437\u0433\u043b\u0430\u0432\u043b\u044f\u0435\u0442"
+          }
+        ],
+        "de": [
+          { "language": "de", "value": "Ministerpr\u00e4sident" },
+          { "language": "de", "value": "B\u00fcrgermeister" },
+          { "language": "de", "value": "Oberb\u00fcrgermeister" },
+          { "language": "de", "value": "Ratsvorsitzender" },
+          { "language": "de", "value": "Ortsb\u00fcrgermeister" },
+          { "language": "de", "value": "Regierungschef" },
+          { "language": "de", "value": "Premierminister" },
+          { "language": "de", "value": "Landrat" },
+          { "language": "de", "value": "Regierungspr\u00e4sident" }
+        ],
+        "uk": [
+          {
+            "language": "uk",
+            "value": "\u043c\u0456\u0441\u044c\u043a\u0438\u0439 \u0433\u043e\u043b\u043e\u0432\u0430"
+          },
+          { "language": "uk", "value": "\u043c\u0435\u0440" },
+          {
+            "language": "uk",
+            "value": "\u0443\u0440\u044f\u0434 \u043e\u0447\u043e\u043b\u044e\u0454:"
+          },
+          {
+            "language": "uk",
+            "value": "\u0431\u0443\u0440\u0433\u043e\u043c\u0456\u0441\u0442\u0440"
+          },
+          {
+            "language": "uk",
+            "value": "\u043f\u0440\u0435\u043c'\u0454\u0440-\u043c\u0456\u043d\u0456\u0441\u0442\u0440"
+          },
+          {
+            "language": "uk",
+            "value": "\u0432\u0438\u043a\u043e\u043d\u0430\u0432\u0447\u0443 \u0432\u043b\u0430\u0434\u0443 \u043e\u0447\u043e\u043b\u044e\u0454"
+          },
+          {
+            "language": "uk",
+            "value": "\u043e\u0447\u0456\u043b\u044c\u043d\u0438\u043a \u0432\u0438\u043a\u043e\u043d\u0430\u0432\u0447\u043e\u0457 \u0432\u043b\u0430\u0434\u0438"
+          },
+          {
+            "language": "uk",
+            "value": "\u0432\u043b\u0430\u0434\u0430 \u0432\u0438\u043a\u043e\u043d\u0430\u0432\u0447\u0430 \u043e\u0447\u043e\u043b\u044e\u0432\u0430\u043d\u0430"
+          },
+          {
+            "language": "uk",
+            "value": "\u043a\u0435\u0440\u0456\u0432\u043d\u0438\u043a \u0432\u0438\u043a\u043e\u043d\u0430\u0432\u0447\u043e\u0457 \u0432\u043b\u0430\u0434\u0438"
+          },
+          {
+            "language": "uk",
+            "value": "\u0430\u0434\u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0430\u0446\u0456\u044f \u043e\u0447\u043e\u043b\u044e\u0454\u0442\u044c\u0441\u044f"
+          },
+          {
+            "language": "uk",
+            "value": "\u043e\u0447\u043e\u043b\u044e\u0454 \u0443\u0440\u044f\u0434"
+          },
+          {
+            "language": "uk",
+            "value": "\u0433\u043b\u0430\u0432\u0430 \u0443\u0440\u044f\u0434\u0443"
+          },
+          {
+            "language": "uk",
+            "value": "\u043a\u0430\u0431\u0456\u043d\u0435\u0442 \u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0456\u0432 \u043e\u0447\u043e\u043b\u044e\u0454"
+          }
+        ],
+        "lv": [
+          { "language": "lv", "value": "m\u0113rs" },
+          { "language": "lv", "value": "vald\u012bbas galva" }
+        ],
+        "it": [
+          { "language": "it", "value": "sindaco" },
+          { "language": "it", "value": "primo ministro" },
+          { "language": "it", "value": "cancelliere" },
+          { "language": "it", "value": "premier" },
+          { "language": "it", "value": "presidente" }
+        ],
+        "ro": [
+          { "language": "ro", "value": "primar" },
+          { "language": "ro", "value": "prim-ministru" },
+          {
+            "language": "ro",
+            "value": "pre\u0219edinte al consiliului de mini\u0219tri"
+          },
+          { "language": "ro", "value": "premier" }
+        ],
+        "ja": [
+          { "language": "ja", "value": "\u77e5\u4e8b" },
+          { "language": "ja", "value": "\u5e02\u9577" },
+          { "language": "ja", "value": "\u753a\u9577" },
+          { "language": "ja", "value": "\u6751\u9577" },
+          { "language": "ja", "value": "\u9996\u9577" },
+          { "language": "ja", "value": "\u9996\u76f8" },
+          { "language": "ja", "value": "\u7dcf\u7406\u5927\u81e3" }
+        ],
+        "es": [
+          { "language": "es", "value": "jefe del gobierno municipal" },
+          { "language": "es", "value": "jefe de gobierno local" },
+          { "language": "es", "value": "jefe de gobierno municipal" },
+          { "language": "es", "value": "alcalde" },
+          { "language": "es", "value": "presidente del gobierno" },
+          { "language": "es", "value": "gobernador" },
+          { "language": "es", "value": "primer ministro" },
+          { "language": "es", "value": "corregidor municipal" },
+          { "language": "es", "value": "magistrado municipal" },
+          { "language": "es", "value": "regidor municipal" },
+          { "language": "es", "value": "juez municipal" }
+        ],
+        "nl": [
+          { "language": "nl", "value": "burgemeester" },
+          { "language": "nl", "value": "regeringsleider" },
+          { "language": "nl", "value": "eerste minister" },
+          { "language": "nl", "value": "gouverneur" },
+          { "language": "nl", "value": "minister-president" },
+          { "language": "nl", "value": "premier" }
+        ],
+        "be": [
+          {
+            "language": "be",
+            "value": "\u043f\u0440\u044d\u043c'\u0435\u0440-\u043c\u0456\u043d\u0456\u0441\u0442\u0440"
+          }
+        ],
+        "ca": [
+          { "language": "ca", "value": "batlle" },
+          { "language": "ca", "value": "pesident de govern" },
+          { "language": "ca", "value": "governador" },
+          { "language": "ca", "value": "primer ministre" },
+          { "language": "ca", "value": "cap del govern" }
+        ],
+        "yi": [
+          {
+            "language": "yi",
+            "value": "\u05d1\u05d9\u05e8\u05d2\u05e2\u05e8\u05de\u05d9\u05d9\u05e1\u05d8\u05e2\u05e8"
+          },
+          {
+            "language": "yi",
+            "value": "\u05d2\u05d5\u05d1\u05e2\u05e8\u05e0\u05d0\u05d8\u05d0\u05e8"
+          },
+          {
+            "language": "yi",
+            "value": "\u05e4\u05e8\u05e2\u05d6\u05d9\u05d3\u05e2\u05e0\u05d8"
+          }
+        ],
+        "te": [
+          {
+            "language": "te",
+            "value": "\u0c2e\u0c41\u0c16\u0c4d\u0c2f\u0c2e\u0c02\u0c24\u0c4d\u0c30\u0c3f"
+          },
+          {
+            "language": "te",
+            "value": "\u0c2a\u0c4d\u0c30\u0c27\u0c3e\u0c28 \u0c2e\u0c02\u0c24\u0c4d\u0c30\u0c3f"
+          },
+          { "language": "te", "value": "\u0c2e\u0c47\u0c2f\u0c30\u0c4d" }
+        ],
+        "hu": [
+          { "language": "hu", "value": "korm\u00e1nyf\u0151" },
+          { "language": "hu", "value": "polg\u00e1rmester" },
+          { "language": "hu", "value": "f\u0151polg\u00e1rmester" },
+          { "language": "hu", "value": "minisztereln\u00f6k" }
+        ],
+        "vi": [
+          { "language": "vi", "value": "th\u1ecb tr\u01b0\u1edfng" },
+          { "language": "vi", "value": "th\u1ed1ng \u0111\u1ed1c" },
+          { "language": "vi", "value": "th\u1ee7 t\u01b0\u1edbng" },
+          { "language": "vi", "value": "t\u1ed5ng th\u1ed1ng" },
+          { "language": "vi", "value": "ch\u1ee7 t\u1ecbch" }
+        ],
+        "zh": [{ "language": "zh", "value": "\u653f\u5e9c\u9996\u8111" }],
+        "lt": [
+          { "language": "lt", "value": "ministras pirmininkas" },
+          { "language": "lt", "value": "premjeras" },
+          { "language": "lt", "value": "pirmasis ministras" },
+          { "language": "lt", "value": "meras" }
+        ],
+        "ko": [
+          { "language": "ko", "value": "\uc815\ubd80 \uc218\ubc18" },
+          { "language": "ko", "value": "\uc815\ubd80 \ub300\ud45c" },
+          { "language": "ko", "value": "\uc2dc\uc7a5" },
+          { "language": "ko", "value": "\uad70\uc218" },
+          { "language": "ko", "value": "\ud2b9\ubcc4\uc2dc\uc7a5" },
+          { "language": "ko", "value": "\uad11\uc5ed\uc2dc\uc7a5" },
+          { "language": "ko", "value": "\ud2b9\ubcc4\uc790\uce58\uc2dc\uc7a5" },
+          { "language": "ko", "value": "\ub3c4\uc9c0\uc0ac" },
+          {
+            "language": "ko",
+            "value": "\ud2b9\ubcc4\uc790\uce58\ub3c4\uc9c0\uc0ac"
+          },
+          { "language": "ko", "value": "\uad6c\uccad\uc7a5" },
+          { "language": "ko", "value": "\uc815\ubd80 \uc218\uc7a5" },
+          {
+            "language": "ko",
+            "value": "\uc9c0\ubc29 \uc815\ubd80\uc758 \uc7a5"
+          },
+          { "language": "ko", "value": "\uc9c0\uc790\uccb4 \ub300\ud45c" },
+          {
+            "language": "ko",
+            "value": "\uc9c0\ubc29 \uc815\ubd80 \ub300\ud45c"
+          },
+          {
+            "language": "ko",
+            "value": "\uc9c0\ubc29 \uc815\ubd80\uc758 \ub300\ud45c"
+          },
+          { "language": "ko", "value": "\ud604\uc9c0\uc0ac" },
+          { "language": "ko", "value": "\uc9c0\uc0ac" },
+          { "language": "ko", "value": "\uc9c0\uc790\uccb4 \uc218\uc7a5" },
+          { "language": "ko", "value": "\ud589\uc815\ubd80 \uc218\uc7a5" },
+          {
+            "language": "ko",
+            "value": "\uc774\uacf3\uc758 \ud589\uc815\ubd80 \uc218\ubc18"
+          }
+        ],
+        "ast": [
+          { "language": "ast", "value": "primer ministru" },
+          { "language": "ast", "value": "presidente" },
+          { "language": "ast", "value": "gobernador" },
+          { "language": "ast", "value": "alcalde" }
+        ],
+        "kn": [
+          {
+            "language": "kn",
+            "value": "\u0cae\u0cc1\u0c96\u0ccd\u0caf\u0cae\u0c82\u0ca4\u0ccd\u0cb0\u0cbf"
+          },
+          { "language": "kn", "value": "\u0cae\u0cc7\u0caf\u0cb0\u0ccd" },
+          {
+            "language": "kn",
+            "value": "\u0caa\u0ccd\u0cb0\u0ca7\u0cbe\u0ca8\u0cae\u0c82\u0ca4\u0ccd\u0cb0\u0cbf"
+          }
+        ],
+        "ta": [
+          {
+            "language": "ta",
+            "value": "\u0ba8\u0b95\u0bb0\u0ba4\u0bcd \u0ba4\u0bb2\u0bc8\u0bb5\u0bb0\u0bcd"
+          },
+          {
+            "language": "ta",
+            "value": "\u0ba8\u0b95\u0bb0\u0baa\u0bcd\u0baa\u0bbf\u0ba4\u0bbe"
+          },
+          {
+            "language": "ta",
+            "value": "\u0bae\u0bc1\u0ba4\u0ba9\u0bcd\u0bae\u0bc8 \u0b85\u0bae\u0bc8\u0b9a\u0bcd\u0b9a\u0bb0\u0bcd"
+          },
+          {
+            "language": "ta",
+            "value": "\u0baa\u0bbf\u0bb0\u0ba4\u0bae\u0bb0\u0bcd"
+          },
+          {
+            "language": "ta",
+            "value": "\u0bae\u0bc1\u0ba4\u0bb2\u0bae\u0bc8\u0b9a\u0bcd\u0b9a\u0bb0\u0bcd"
+          },
+          {
+            "language": "ta",
+            "value": "\u0ba4\u0bc7\u0b9a\u0bbf\u0baf \u0b85\u0bb0\u0b9a\u0bbf\u0ba9\u0bcd \u0ba4\u0bb2\u0bc8\u0bb5\u0bb0\u0bcd"
+          }
+        ],
+        "bn": [
+          { "language": "bn", "value": "\u09ae\u09c7\u09af\u09bc\u09b0" },
+          {
+            "language": "bn",
+            "value": "\u09aa\u09cd\u09b0\u09a7\u09be\u09a8\u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0"
+          }
+        ],
+        "hsb": [
+          { "language": "hsb", "value": "m\u011b\u0161\u0107anosta" },
+          { "language": "hsb", "value": "wjesnjanosta" },
+          { "language": "hsb", "value": "ministerski prezident" },
+          { "language": "hsb", "value": "\u0161ef knje\u017eerstwa" }
+        ],
+        "nb": [
+          { "language": "nb", "value": "statsminister" },
+          { "language": "nb", "value": "ordf\u00f8rer" },
+          { "language": "nb", "value": "fylkesordf\u00f8rer" }
+        ],
+        "da": [
+          { "language": "da", "value": "borgmester" },
+          { "language": "da", "value": "statsminister" },
+          { "language": "da", "value": "regeringschef" },
+          { "language": "da", "value": "r\u00e5dsformand" },
+          { "language": "da", "value": "pr\u00e6sident" },
+          { "language": "da", "value": "kansler" },
+          { "language": "da", "value": "f\u00f8rsteminister" },
+          { "language": "da", "value": "premierminister" },
+          { "language": "da", "value": "regionsr\u00e5dsformand" }
+        ],
+        "sv": [
+          { "language": "sv", "value": "premi\u00e4rminister" },
+          { "language": "sv", "value": "borgm\u00e4stare" },
+          { "language": "sv", "value": "ordf\u00f6rande" }
+        ],
+        "gl": [{ "language": "gl", "value": "alcalde" }],
+        "ba": [
+          { "language": "ba", "value": "\u043c\u044d\u0440" },
+          {
+            "language": "ba",
+            "value": "\u043c\u0443\u043d\u0438\u0446\u0438\u043f\u0430\u043b\u044c \u0431\u0435\u0440\u04d9\u043c\u0435\u043a \u0431\u0430\u0448\u043b\u044b\u0493\u044b"
+          },
+          {
+            "language": "ba",
+            "value": "\u043a\u043e\u043c\u043c\u0443\u043d\u0430 \u0431\u0430\u0448\u043b\u044b\u0493\u044b"
+          },
+          {
+            "language": "ba",
+            "value": "\u043f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442"
+          },
+          {
+            "language": "ba",
+            "value": "\u0433\u0443\u0431\u0435\u0440\u043d\u0430\u0442\u043e\u0440"
+          },
+          {
+            "language": "ba",
+            "value": "\u043f\u0440\u0435\u0444\u0435\u043a\u0442"
+          },
+          {
+            "language": "ba",
+            "value": "\u0431\u0443\u0440\u0433\u043e\u043c\u0438\u0441\u0442\u0440"
+          },
+          {
+            "language": "ba",
+            "value": "\u04a1\u0430\u043b\u0430 \u0431\u0430\u0448\u043b\u044b\u0493\u044b"
+          },
+          {
+            "language": "ba",
+            "value": "\u043f\u0440\u0435\u043c\u044c\u0435\u0440-\u043c\u0438\u043d\u0438\u0441\u0442\u0440"
+          }
+        ],
+        "eu": [
+          { "language": "eu", "value": "agintaria" },
+          { "language": "eu", "value": "alkatea" },
+          { "language": "eu", "value": "lehen ministroa" },
+          { "language": "eu", "value": "presidentea" }
+        ],
+        "bg": [
+          { "language": "bg", "value": "\u043a\u043c\u0435\u0442" },
+          {
+            "language": "bg",
+            "value": "\u043c\u0438\u043d\u0438\u0441\u0442\u044a\u0440-\u043f\u0440\u0435\u0434\u0441\u0435\u0434\u0430\u0442\u0435\u043b"
+          },
+          {
+            "language": "bg",
+            "value": "\u043f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442"
+          },
+          {
+            "language": "bg",
+            "value": "\u043f\u0440\u0435\u0434\u0441\u0435\u0434\u0430\u0442\u0435\u043b"
+          },
+          {
+            "language": "bg",
+            "value": "\u043e\u0431\u043b\u0430\u0441\u0442\u0435\u043d \u0443\u043f\u0440\u0430\u0432\u0438\u0442\u0435\u043b"
+          }
+        ],
+        "id": [
+          { "language": "id", "value": "walikota" },
+          { "language": "id", "value": "perdana menteri" },
+          { "language": "id", "value": "presiden" },
+          { "language": "id", "value": "bupati" }
+        ],
+        "sl": [
+          { "language": "sl", "value": "predsednik Vlade" },
+          { "language": "sl", "value": "\u017eupan" },
+          { "language": "sl", "value": "premier" },
+          { "language": "sl", "value": "kancler" },
+          { "language": "sl", "value": "predsednik" }
+        ],
+        "ar": [
+          {
+            "language": "ar",
+            "value": "\u0631\u0626\u064a\u0633 \u0627\u0644\u0648\u0632\u0631\u0627\u0621"
+          },
+          {
+            "language": "ar",
+            "value": "\u0631\u0626\u064a\u0633 \u0645\u062c\u0644\u0633 \u0627\u0644\u0648\u0632\u0631\u0627\u0621"
+          },
+          {
+            "language": "ar",
+            "value": "\u0627\u0644\u0648\u0632\u064a\u0631 \u0627\u0644\u0623\u0648\u0644"
+          }
+        ],
+        "pt-br": [
+          { "language": "pt-br", "value": "presidente" },
+          { "language": "pt-br", "value": "governador" },
+          { "language": "pt-br", "value": "prefeito" },
+          { "language": "pt-br", "value": "primeiro-ministro" },
+          { "language": "pt-br", "value": "chanceler" }
+        ],
+        "sq": [
+          { "language": "sq", "value": "kryetar" },
+          { "language": "sq", "value": "kryeminist\u00ebr" },
+          { "language": "sq", "value": "kryebashkiak" },
+          { "language": "sq", "value": "kancelar" },
+          { "language": "sq", "value": "president" },
+          { "language": "sq", "value": "guvernator" }
+        ],
+        "tr": [
+          { "language": "tr", "value": "devlet ba\u015fkan\u0131" },
+          { "language": "tr", "value": "vali" },
+          { "language": "tr", "value": "\u015fans\u00f6lye" },
+          { "language": "tr", "value": "ba\u015fkan" },
+          { "language": "tr", "value": "cumhurba\u015fkan\u0131" }
+        ],
+        "tl": [
+          { "language": "tl", "value": "alkalde" },
+          { "language": "tl", "value": "punong lungsod" },
+          { "language": "tl", "value": "punong bayan" },
+          { "language": "tl", "value": "gobernador" },
+          { "language": "tl", "value": "pangulo" },
+          { "language": "tl", "value": "premiyer" },
+          { "language": "tl", "value": "punong ministro" }
+        ],
+        "tg-cyrl": [
+          {
+            "language": "tg-cyrl",
+            "value": "\u0441\u0430\u0440\u0432\u0430\u0437\u0438\u0440"
+          },
+          {
+            "language": "tg-cyrl",
+            "value": "\u043d\u0430\u0445\u0443\u0441\u0442\u0432\u0430\u0437\u0438\u0440"
+          },
+          {
+            "language": "tg-cyrl",
+            "value": "\u0441\u0430\u0434\u0440\u0438 \u0430\u044a\u0437\u0430\u043c"
+          },
+          {
+            "language": "tg-cyrl",
+            "value": "\u0440\u0430\u0438\u0441\u0438 \u0432\u0438\u043b\u043e\u044f\u0442"
+          },
+          {
+            "language": "tg-cyrl",
+            "value": "\u0440\u0430\u0438\u0441\u0438 \u0448\u0430\u04b3\u0440"
+          },
+          {
+            "language": "tg-cyrl",
+            "value": "\u0441\u0430\u0440\u0434\u043e\u0440\u0438 \u04b3\u043e\u043a\u0438\u043c\u0438\u044f\u0442\u0438 \u0438\u04b7\u0440\u043e\u0438\u044f"
+          },
+          {
+            "language": "tg-cyrl",
+            "value": "\u0441\u0430\u0440\u0434\u043e\u0440\u0438 \u04b3\u0430\u0439\u0430\u0442\u0438 \u0432\u0430\u0437\u0438\u0440\u043e\u043d"
+          },
+          {
+            "language": "tg-cyrl",
+            "value": "\u043f\u0440\u0435\u0444\u0435\u043a\u0442"
+          },
+          {
+            "language": "tg-cyrl",
+            "value": "\u0431\u0443\u0440\u0433\u043e\u043c\u0438\u0441\u0442\u0440"
+          },
+          {
+            "language": "tg-cyrl",
+            "value": "\u0448\u0430\u04b3\u0440\u0434\u043e\u0440"
+          },
+          {
+            "language": "tg-cyrl",
+            "value": "\u0433\u0443\u0431\u0435\u0440\u043d\u0430\u0442\u043e\u0440"
+          }
+        ],
+        "az": [
+          { "language": "az", "value": "mer" },
+          {
+            "language": "az",
+            "value": "b\u0259l\u0259diyy\u0259 ba\u015f\u00e7\u0131s\u0131"
+          },
+          { "language": "az", "value": "ba\u015f nazir" },
+          { "language": "az", "value": "birinci nazir" },
+          { "language": "az", "value": "kansler" },
+          { "language": "az", "value": "s\u0259dr" },
+          { "language": "az", "value": "qubernator" },
+          { "language": "az", "value": "icra ba\u015f\u00e7\u0131s\u0131" }
+        ],
+        "ur": [{ "language": "ur", "value": "\u0645\u06cc\u0626\u0631" }],
+        "th": [
+          {
+            "language": "th",
+            "value": "\u0e1b\u0e23\u0e30\u0e18\u0e32\u0e19\u0e32\u0e18\u0e34\u0e1a\u0e14\u0e35"
+          },
+          {
+            "language": "th",
+            "value": "\u0e19\u0e32\u0e22\u0e01\u0e23\u0e31\u0e10\u0e21\u0e19\u0e15\u0e23\u0e35"
+          },
+          {
+            "language": "th",
+            "value": "\u0e1b\u0e23\u0e30\u0e21\u0e38\u0e02\u0e41\u0e2b\u0e48\u0e07\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28"
+          }
+        ],
+        "en-ca": [
+          { "language": "en-ca", "value": "mayor" },
+          { "language": "en-ca", "value": "prime minister" },
+          { "language": "en-ca", "value": "premier" },
+          { "language": "en-ca", "value": "first minister" },
+          { "language": "en-ca", "value": "head of national government" },
+          { "language": "en-ca", "value": "government heading by" },
+          { "language": "en-ca", "value": "executive power heading by" },
+          { "language": "en-ca", "value": "chancellor" },
+          { "language": "en-ca", "value": "governor" },
+          { "language": "en-ca", "value": "president" }
+        ],
+        "en-gb": [
+          { "language": "en-gb", "value": "mayor" },
+          { "language": "en-gb", "value": "prime minister" },
+          { "language": "en-gb", "value": "premier" },
+          { "language": "en-gb", "value": "first minister" },
+          { "language": "en-gb", "value": "head of national government" },
+          { "language": "en-gb", "value": "government heading by" },
+          { "language": "en-gb", "value": "executive power heading by" },
+          { "language": "en-gb", "value": "chancellor" },
+          { "language": "en-gb", "value": "governor" },
+          { "language": "en-gb", "value": "president" }
+        ],
+        "ms": [
+          { "language": "ms", "value": "datuk bandar" },
+          { "language": "ms", "value": "perdana menteri" },
+          { "language": "ms", "value": "menteri pertama" },
+          { "language": "ms", "value": "ketua kerajaan kebangsaan" },
+          { "language": "ms", "value": "kerajaan diketuai oleh" },
+          { "language": "ms", "value": "kuasa eksekutif diketuai oleh" },
+          { "language": "ms", "value": "canselor" },
+          { "language": "ms", "value": "gabenor" },
+          { "language": "ms", "value": "presiden" }
+        ],
+        "bs": [
+          { "language": "bs", "value": "gradona\u010delnik" },
+          { "language": "bs", "value": "premijer" },
+          { "language": "bs", "value": "na\u010delnik op\u0107ine" }
+        ],
+        "pt": [
+          { "language": "pt", "value": "prefeito" },
+          { "language": "pt", "value": "primeiro ministro" },
+          { "language": "pt", "value": "premi\u00ea" },
+          { "language": "pt", "value": "governador" },
+          { "language": "pt", "value": "presidente" },
+          { "language": "pt", "value": "primeiro-ministro" },
+          { "language": "pt", "value": "chefe de estado" }
+        ],
+        "zh-tw": [
+          { "language": "zh-tw", "value": "\u9996\u9577" },
+          { "language": "zh-tw", "value": "\u5e02\u9577" }
+        ],
+        "sr": [
+          {
+            "language": "sr",
+            "value": "\u0433\u0440\u0430\u0434\u043e\u043d\u0430\u0447\u0435\u043b\u043d\u0438\u043a"
+          },
+          {
+            "language": "sr",
+            "value": "\u043d\u0430\u0447\u0435\u043b\u043d\u0438\u043a"
+          },
+          {
+            "language": "sr",
+            "value": "\u043f\u0440\u0435\u043c\u0438\u0458\u0435\u0440"
+          },
+          {
+            "language": "sr",
+            "value": "\u043a\u0430\u043d\u0446\u0435\u043b\u0430\u0440"
+          },
+          {
+            "language": "sr",
+            "value": "\u0433\u0443\u0432\u0435\u0440\u043d\u0435\u0440"
+          }
+        ],
+        "he": [
+          {
+            "language": "he",
+            "value": "\u05e8\u05d0\u05e9 \u05e2\u05d9\u05e8"
+          },
+          {
+            "language": "he",
+            "value": "\u05e8\u05d0\u05e9 \u05d4\u05e2\u05d9\u05e8"
+          },
+          {
+            "language": "he",
+            "value": "\u05e8\u05d0\u05e9 \u05d4\u05de\u05d5\u05e2\u05e6\u05d4"
+          },
+          {
+            "language": "he",
+            "value": "\u05e8\u05d0\u05e9 \u05de\u05d5\u05e2\u05e6\u05d4"
+          }
+        ],
+        "fo": [
+          { "language": "fo", "value": "fors\u00e6tisr\u00e1\u00f0harri" },
+          { "language": "fo", "value": "borgarstj\u00f3ri" },
+          { "language": "fo", "value": "forseti" },
+          { "language": "fo", "value": "r\u00e1\u00f0sforma\u00f0ur" }
+        ],
+        "la": [{ "language": "la", "value": "praefectus" }],
+        "hyw": [
+          {
+            "language": "hyw",
+            "value": "\u0584\u0561\u0572\u0561\u0584\u0561\u057a\u0565\u057f"
+          },
+          {
+            "language": "hyw",
+            "value": "\u0535\u0580\u056f\u0580\u056b\u0576 \u0576\u0561\u056d\u0561\u0563\u0561\u0570"
+          },
+          {
+            "language": "hyw",
+            "value": "\u054e\u0561\u0580\u0579\u0561\u057a\u0565\u057f"
+          },
+          {
+            "language": "hyw",
+            "value": "\u0544\u0561\u0580\u0566\u057a\u0565\u057f"
+          },
+          {
+            "language": "hyw",
+            "value": "\u0577\u0580\u057b\u0561\u0576\u0561\u0575\u056b\u0576 \u056f\u0561\u057c\u0561\u057e\u0561\u0580\u056b\u0579"
+          },
+          {
+            "language": "hyw",
+            "value": "\u0576\u0561\u0570\u0561\u0576\u0563\u0561\u057a\u0565\u057f"
+          },
+          {
+            "language": "hyw",
+            "value": "\u0570\u0580\u0561\u0574\u0561\u0576\u0561\u057f\u0561\u0580"
+          }
+        ],
+        "min": [
+          { "language": "min", "value": "wali nagari" },
+          { "language": "min", "value": "kapalo adaik" }
+        ],
+        "nqo": [
+          {
+            "language": "nqo",
+            "value": "\u07de\u07cf\u07d5\u07cc\u07ef \u07dd\u07df\u07d0"
+          },
+          {
+            "language": "nqo",
+            "value": "\u07de\u07ce\u07f2\u07ec\u07e0\u07ca\u07ec\u07db\u07cc\u07ee \u07de\u07ce\u07f2\u07ec\u07d5\u07cc\u07ee"
+          }
+        ]
+      },
+      "claims": {
+        "P1659": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1659",
+              "datavalue": {
+                "value": {
+                  "entity-type": "property",
+                  "numeric-id": 35,
+                  "id": "P35"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-property"
+            },
+            "type": "statement",
+            "id": "P6$4ef85ccd-490f-aaaf-2c95-26ec36dd58d2",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1659",
+              "datavalue": {
+                "value": {
+                  "entity-type": "property",
+                  "numeric-id": 1313,
+                  "id": "P1313"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-property"
+            },
+            "type": "statement",
+            "id": "P6$c98223ef-4784-e860-6860-947a6a58b6e2",
+            "rank": "normal"
+          }
+        ],
+        "P1629": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1629",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2285706,
+                  "id": "Q2285706"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "P6$085d82a5-457e-8379-44d9-56a2c0bb5103",
+            "rank": "normal"
+          }
+        ],
+        "P1855": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1855",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 183,
+                  "id": "Q183"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6": [
+                {
+                  "snaktype": "value",
+                  "property": "P6",
+                  "hash": "bdff16b0e95d206dfcfecae2d4b033ed9cb6e294",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 567,
+                      "id": "Q567"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": ["P6"],
+            "id": "P6$a815dad3-4d84-03c1-91f4-31eedb88ddd5",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1855",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 159,
+                  "id": "Q159"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6": [
+                {
+                  "snaktype": "value",
+                  "property": "P6",
+                  "hash": "8ed5ab3754a0f27196b4f9bdc474c61d49686fc3",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 7747,
+                      "id": "Q7747"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": ["P6"],
+            "id": "P6$a2090ed8-4e74-a1bc-82a5-e6f176dd9389",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1855",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30,
+                  "id": "Q30"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6": [
+                {
+                  "snaktype": "value",
+                  "property": "P6",
+                  "hash": "57133b7b3314ed7312ebec703c8a6d9bf897f2d3",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 22686,
+                      "id": "Q22686"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": ["P6"],
+            "id": "P6$a8b4325b-44b4-ae0e-7f9d-d347074295ab",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1855",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 252,
+                  "id": "Q252"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6": [
+                {
+                  "snaktype": "value",
+                  "property": "P6",
+                  "hash": "8e78d170c2247411e592e2a6ad3fa3a4dbcb5ffc",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 3318231,
+                      "id": "Q3318231"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": ["P6"],
+            "id": "P6$9a107258-4cef-a4df-26fe-ce36364c377c",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1855",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 43,
+                  "id": "Q43"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6": [
+                {
+                  "snaktype": "value",
+                  "property": "P6",
+                  "hash": "96c17f890634b06ae04670803964bebbed50119e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 39259,
+                      "id": "Q39259"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": ["P6"],
+            "id": "P6$ebe6bac0-4729-a9d0-3d98-f95d140d6f68",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 22997934,
+                  "id": "Q22997934"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "P6$368b28cf-4a34-b19e-08da-4e8f88e2509b",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 22984475,
+                  "id": "Q22984475"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "P6$963173eb-4dca-c9eb-a40a-df4086b35a6d",
+            "rank": "normal"
+          }
+        ],
+        "P2875": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2875",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 20989996,
+                  "id": "Q20989996"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "P6$03ab723b-4cc2-ac2f-e799-06aa27f48301",
+            "rank": "normal"
+          }
+        ],
+        "P973": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P973",
+              "datavalue": {
+                "value": "https://www.wikidata.org/wiki/Wikidata:WikiProject_Heads_of_state_and_government",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "P6$139d7b58-441f-988f-f9fc-747a596ac971",
+            "rank": "normal"
+          }
+        ],
+        "P2302": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2302",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21503250,
+                  "id": "Q21503250"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2308": [
+                {
+                  "snaktype": "value",
+                  "property": "P2308",
+                  "hash": "38af83ea288c59844403416c3d77dfd32c6ff327",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1048835,
+                      "id": "Q1048835"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2308",
+                  "hash": "1c5de3e78f6e0f29aab8bb0c58070546118be06a",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 7188,
+                      "id": "Q7188"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2308",
+                  "hash": "35d25435d2a69dd5211140037b8412e098080388",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 640506,
+                      "id": "Q640506"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2308",
+                  "hash": "fe9c604a6afa870819ec299effe63f0f4e8812d4",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 524572,
+                      "id": "Q524572"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2308",
+                  "hash": "dc24713ea3b28b1b481b17db924e298e1b224317",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1145276,
+                      "id": "Q1145276"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2308",
+                  "hash": "3d691d3f761063f2b8c5784c699d133468ecd784",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1964689,
+                      "id": "Q1964689"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P2309": [
+                {
+                  "snaktype": "value",
+                  "property": "P2309",
+                  "hash": "8d7afee22e0fa6211dd8c95f247e1dd7b38daf70",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 21503252,
+                      "id": "Q21503252"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": ["P2308", "P2309"],
+            "id": "P6$F2066F55-6BD4-45E8-96BC-5A7E426330AD",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2302",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21510865,
+                  "id": "Q21510865"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2308": [
+                {
+                  "snaktype": "value",
+                  "property": "P2308",
+                  "hash": "6507af56cd83ccb72044b460a8b439e1746afa1a",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 5,
+                      "id": "Q5"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2308",
+                  "hash": "265ccfbd021a4e58e205b62e064241f92d425a71",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 95074,
+                      "id": "Q95074"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P2309": [
+                {
+                  "snaktype": "value",
+                  "property": "P2309",
+                  "hash": "8d7afee22e0fa6211dd8c95f247e1dd7b38daf70",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 21503252,
+                      "id": "Q21503252"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": ["P2308", "P2309"],
+            "id": "P6$1C1EA552-9809-489A-9B60-92E161AF100D",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2302",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21510864,
+                  "id": "Q21510864"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2306": [
+                {
+                  "snaktype": "value",
+                  "property": "P2306",
+                  "hash": "79af6435e9fe1905480f6ef3ba77a508eaf0cb9e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 39,
+                      "id": "P39"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                }
+              ]
+            },
+            "qualifiers-order": ["P2306"],
+            "id": "P6$B85BB345-44C1-4856-95B3-91F7F7406D4F",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2302",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21510851,
+                  "id": "Q21510851"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2306": [
+                {
+                  "snaktype": "value",
+                  "property": "P2306",
+                  "hash": "9a99a64b4596a8cb9b717b1767429ba1005f9074",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 580,
+                      "id": "P580"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2306",
+                  "hash": "4b76d9db644c246cdd1e55eb443f3fca41f70102",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 582,
+                      "id": "P582"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2306",
+                  "hash": "8c3654d293f58dc7705999cbd22b15f74c0b241c",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 585,
+                      "id": "P585"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2306",
+                  "hash": "be1d594833a46a2d62fbb802d7ec5016492048ad",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 459,
+                      "id": "P459"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2306",
+                  "hash": "0d85218d4870b85d6f01e18466b7975f935d7581",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 1534,
+                      "id": "P1534"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2306",
+                  "hash": "2e18321c3a46b7363d2f5e5c5cd2bedf0a657f2f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 805,
+                      "id": "P805"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2306",
+                  "hash": "2f24d7e654304cd648fad2e79e98ce2192f5987b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 1365,
+                      "id": "P1365"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2306",
+                  "hash": "7a09570a989393a15dce7d4f01f5b6899be99e3d",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 1366,
+                      "id": "P1366"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2306",
+                  "hash": "f4213edb3e031923d95a387aad0dca082df29c07",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 1545,
+                      "id": "P1545"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2306",
+                  "hash": "be6930596089c30bf66c5dad150840fb212932c3",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 102,
+                      "id": "P102"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2306",
+                  "hash": "997053b6c11300df594c46f05b9693099be7c2ae",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 2868,
+                      "id": "P2868"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                }
+              ]
+            },
+            "qualifiers-order": ["P2306"],
+            "id": "P6$FDCABCEB-2AE8-4433-9730-D744C480D5B3",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2302",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 53869507,
+                  "id": "Q53869507"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P5314": [
+                {
+                  "snaktype": "value",
+                  "property": "P5314",
+                  "hash": "a0202111cb525ed31611bf926974b74a2419b8ab",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 54828448,
+                      "id": "Q54828448"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": ["P5314"],
+            "id": "P6$B282AC26-F9DF-4525-B8CF-4AA86246948C",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2302",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 25796498,
+                  "id": "Q25796498"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2316": [
+                {
+                  "snaktype": "value",
+                  "property": "P2316",
+                  "hash": "d50c571a43e6102d65b729ccc7049a0a2f867e34",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 21502408,
+                      "id": "Q21502408"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": ["P2316"],
+            "id": "P6$16768749-0347-4519-AE94-672D336A3BF9",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2302",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21510856,
+                  "id": "Q21510856"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2306": [
+                {
+                  "snaktype": "value",
+                  "property": "P2306",
+                  "hash": "9a99a64b4596a8cb9b717b1767429ba1005f9074",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 580,
+                      "id": "P580"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                }
+              ]
+            },
+            "qualifiers-order": ["P2306"],
+            "id": "P6$54adb6d6-46b3-095d-1935-3b92acd45995",
+            "rank": "normal"
+          }
+        ],
+        "P3734": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3734",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 42533373,
+                  "id": "Q42533373"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "P6$C1662A10-808E-4B79-B542-8E80D919A8B3",
+            "rank": "normal"
+          }
+        ],
+        "P3254": [
+          {
+            "mainsnak": {
+              "snaktype": "novalue",
+              "property": "P3254",
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "P6$3d37a5dd-4a94-8820-4da8-bdca06290ae4",
+            "rank": "normal"
+          }
+        ],
+        "P1647": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1647",
+              "datavalue": {
+                "value": {
+                  "entity-type": "property",
+                  "numeric-id": 1037,
+                  "id": "P1037"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-property"
+            },
+            "type": "statement",
+            "id": "P6$c40e25c9-4e08-20a6-4d13-9873e3d7afd4",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1647",
+              "datavalue": {
+                "value": {
+                  "entity-type": "property",
+                  "numeric-id": 488,
+                  "id": "P488"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-property"
+            },
+            "type": "statement",
+            "id": "P6$F5D92612-3301-42AF-B0E0-95A33612C156",
+            "rank": "normal"
+          }
+        ],
+        "P7087": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7087",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 65964565,
+                  "id": "Q65964565"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "P6$e894ba4c-4d26-6ba0-5eb5-d72a7d3a96be",
+            "rank": "normal"
+          }
+        ]
+      }
+    }
+  }
+}

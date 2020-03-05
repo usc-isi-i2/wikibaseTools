@@ -1,0 +1,198 @@
+{
+  "entities": {
+    "P7954": {
+      "pageid": 86311909,
+      "ns": 120,
+      "title": "Property:P7954",
+      "lastrevid": 1129072709,
+      "modified": "2020-03-04T22:11:54Z",
+      "type": "property",
+      "datatype": "external-id",
+      "id": "P7954",
+      "labels": {
+        "en": { "language": "en", "value": "RealGM basketball coach ID" },
+        "it": { "language": "it", "value": "Identificativo allenatore RealGM" }
+      },
+      "descriptions": {
+        "en": { "language": "en", "value": "ID of the database RealGM" }
+      },
+      "aliases": {},
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18616576,
+                  "id": "Q18616576"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "P7954$826da098-412b-f1d6-ca4c-542941407605",
+            "rank": "normal"
+          }
+        ],
+        "P1855": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1855",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 718825,
+                  "id": "Q718825"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P7954": [
+                {
+                  "snaktype": "value",
+                  "property": "P7954",
+                  "hash": "b11cc8f3ae67e96f647aadf58994df233a0a2634",
+                  "datavalue": { "value": "22604", "type": "string" },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "qualifiers-order": ["P7954"],
+            "id": "P7954$d2e6f84d-4a3e-2d4f-0a22-e67bb7e2be63",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1855",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 456730,
+                  "id": "Q456730"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P7954": [
+                {
+                  "snaktype": "value",
+                  "property": "P7954",
+                  "hash": "a5c69076361fa7a5520ff59af3780878c6d1305e",
+                  "datavalue": { "value": "1536", "type": "string" },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "qualifiers-order": ["P7954"],
+            "id": "P7954$85081571-4ebb-0b66-6a11-58c9a45d2170",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1855",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 708639,
+                  "id": "Q708639"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P7954": [
+                {
+                  "snaktype": "value",
+                  "property": "P7954",
+                  "hash": "97512fa12e516784e7f9bdb44cccd112fb5b4f05",
+                  "datavalue": { "value": "1852", "type": "string" },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "qualifiers-order": ["P7954"],
+            "id": "P7954$cf9a814a-4f5d-090b-e9fa-12fa7b3326eb",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1855",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 316246,
+                  "id": "Q316246"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P7954": [
+                {
+                  "snaktype": "value",
+                  "property": "P7954",
+                  "hash": "2313c3c0c7881374d85b7ffc486b6f7932eb941e",
+                  "datavalue": { "value": "128", "type": "string" },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "qualifiers-order": ["P7954"],
+            "id": "P7954$39240aa7-4739-5ec9-2779-4a011ec70fca",
+            "rank": "normal"
+          }
+        ],
+        "P1630": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1630",
+              "datavalue": {
+                "value": "http://basketball.realgm.com/staff/wd/Summary/$1",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "P7954$b5249c93-44a8-e55b-24dc-5cf7e69edb0b",
+            "rank": "normal"
+          }
+        ],
+        "P1896": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1896",
+              "datavalue": {
+                "value": "https://basketball.realgm.com/staff/wd/Summary",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "P7954$fe2ba4df-46ab-c88d-da21-aa85bf0b4400",
+            "rank": "normal"
+          }
+        ]
+      }
+    }
+  }
+}
