@@ -4,8 +4,6 @@ Test the scripts in ./scripts/ directory.
 '''
 
 import requests
-import pytest
-
 
 class TestTestScripts:
 

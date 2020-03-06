@@ -88,7 +88,8 @@
 <li class="toctree-l2 current"><a class="current reference internal" href="#">wikibaseTools package</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#module-wikibaseTools.auth">wikibaseTools.auth module</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#module-wikibaseTools">Module contents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-wikibaseTools.core">wikibaseTools.core module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-wikibaseTools.wdimporter">wikibaseTools.wdimporter module</a></li>
 </ul>
 </li>
 </ul>
@@ -175,7 +176,7 @@ User should obtain permissions by applying for a bot in the <cite>special pages<
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <dl class="method">
 <dt id="wikibaseTools.auth.Authenticator.authenticate">
-<code class="sig-name descname">authenticate</code><span class="sig-paren">(</span><em class="sig-param">endpointUrl: str = 'http://localhost:8181'</em>, <em class="sig-param">resourceUrl: str = '/w/api.php'</em>, <em class="sig-param">credentialPath: str = './.crendentials.json'</em><span class="sig-paren">)</span> &#x2192; str<a class="headerlink" href="#wikibaseTools.auth.Authenticator.authenticate" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">authenticate</code><span class="sig-paren">(</span><em class="sig-param">endpointUrl: str = 'http://localhost:8181'</em>, <em class="sig-param">resourceUrl: str = '/w/api.php'</em>, <em class="sig-param">credentialPath: str = './.credentials.json'</em><span class="sig-paren">)</span> &#x2192; str<a class="headerlink" href="#wikibaseTools.auth.Authenticator.authenticate" title="Permalink to this definition">¶</a></dt>
 <dd><p>authenticate() performs the authentication sequence using the credentials in the .credentials.json file. This function returns the CSRF token which should be placed in the <cite>token</cite> field for editing interactions with wikibase endpoints.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -186,10 +187,13 @@ User should obtain permissions by applying for a bot in the <cite>special pages<
 </ul>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p>csrfToken: This token required for editing operations</p>
+<dd class="field-even"><p>csrfToken:  Token required for editing operations.</p>
 </dd>
 <dt class="field-odd">Return type</dt>
 <dd class="field-odd"><p>str</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>apiUrl: API URL fed into core.EntityEditor()</p>
 </dd>
 </dl>
 </dd></dl>
@@ -197,8 +201,78 @@ User should obtain permissions by applying for a bot in the <cite>special pages<
 </dd></dl>
 
 </div>
-<div class="section" id="module-wikibaseTools">
-<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-wikibaseTools" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-wikibaseTools.core">
+<span id="wikibasetools-core-module"></span><h2>wikibaseTools.core module<a class="headerlink" href="#module-wikibaseTools.core" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="wikibaseTools.core.EntityEditor">
+<em class="property">class </em><code class="sig-prename descclassname">wikibaseTools.core.</code><code class="sig-name descname">EntityEditor</code><span class="sig-paren">(</span><em class="sig-param">apiUrl</em>, <em class="sig-param">csrfToken</em><span class="sig-paren">)</span><a class="headerlink" href="#wikibaseTools.core.EntityEditor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p><cite>EntityEditor</cite> is the central class. It interacts with a wikibase instance.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>[description]</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>[type]</p>
+</dd>
+</dl>
+<dl class="method">
+<dt id="wikibaseTools.core.EntityEditor.checkExistence">
+<code class="sig-name descname">checkExistence</code><span class="sig-paren">(</span><em class="sig-param">entityID: str</em><span class="sig-paren">)</span> &#x2192; bool<a class="headerlink" href="#wikibaseTools.core.EntityEditor.checkExistence" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="wikibaseTools.core.EntityEditor.createEntity">
+<code class="sig-name descname">createEntity</code><span class="sig-paren">(</span><em class="sig-param">entityType: str = 'item'</em>, <em class="sig-param">dataType: str = ''</em><span class="sig-paren">)</span> &#x2192; str<a class="headerlink" href="#wikibaseTools.core.EntityEditor.createEntity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create an entity with the appending-only design pattern of Wikibase. If there are total N items/properties in wikibase instance, this function will create (N+1)-th item or property and return the id, either Q{N+1} or P{N+1}. This function does NOTHING to the label, descriptions, etc., which is the responsiblity of <cite>writeStatement()</cite> method.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>entityType: the type of entity, can be either <cite>item</cite> or <cite>property</cite>, defaults to <cite>item</cite></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>entityType: str</p>
+</dd>
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>dataType: type of property entity. Check <a class="reference external" href="https://www.wikidata.org/wiki/Help:Data_type">https://www.wikidata.org/wiki/Help:Data_type</a>.</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>dataType: str</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>id of entity just created</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="wikibaseTools.core.EntityEditor.deleteEntity">
+<code class="sig-name descname">deleteEntity</code><span class="sig-paren">(</span><em class="sig-param">entityID: str</em>, <em class="sig-param">asAdmin: bool = False</em><span class="sig-paren">)</span> &#x2192; bool<a class="headerlink" href="#wikibaseTools.core.EntityEditor.deleteEntity" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="wikibaseTools.core.EntityEditor.writeStatement">
+<code class="sig-name descname">writeStatement</code><span class="sig-paren">(</span><em class="sig-param">entityID: str</em>, <em class="sig-param">dataDict={}</em>, <em class="sig-param">checkExistence: bool = True</em><span class="sig-paren">)</span> &#x2192; bool<a class="headerlink" href="#wikibaseTools.core.EntityEditor.writeStatement" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-wikibaseTools.wdimporter">
+<span id="wikibasetools-wdimporter-module"></span><h2>wikibaseTools.wdimporter module<a class="headerlink" href="#module-wikibaseTools.wdimporter" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="wikibaseTools.wdimporter.WDImporter">
+<em class="property">class </em><code class="sig-prename descclassname">wikibaseTools.wdimporter.</code><code class="sig-name descname">WDImporter</code><a class="headerlink" href="#wikibaseTools.wdimporter.WDImporter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="wikibaseTools.wdimporter.WDImporter.importWikiDataProperty">
+<code class="sig-name descname">importWikiDataProperty</code><span class="sig-paren">(</span><em class="sig-param">local=True</em><span class="sig-paren">)</span><a class="headerlink" href="#wikibaseTools.wdimporter.WDImporter.importWikiDataProperty" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
 </div>
 </div>
 

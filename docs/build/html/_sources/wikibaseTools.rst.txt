@@ -13,10 +13,19 @@ wikibaseTools.auth module
    :show-inheritance:
 
 
-Module contents
----------------
+wikibaseTools.core module
+-------------------------
 
-.. automodule:: wikibaseTools
+.. automodule:: wikibaseTools.core
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+wikibaseTools.wdimporter module
+-------------------------------
+
+.. automodule:: wikibaseTools.wdimporter
    :members:
    :undoc-members:
    :show-inheritance:

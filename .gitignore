@@ -1,2 +1,9 @@
-.crendentials.json
+.credentials.json
 .vscode
+tests/__pycache__/*
+wikibaseTools/__pycache__/*
+*.ipynb
+.ipynb_checkpoints
+build/
+dist/
+wikibaseTools.egg-info

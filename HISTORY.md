@@ -1,16 +1,20 @@
-0.1.0 (2020-03-04)
+0.1.0 (2020-03-06)
 -------------------
 
 **Improvements**
 
+- added query time in `queryWikidataProperty.py`.
+- added `core` functionalities and corresponding tests
+- added `data`
 
 **Bugfix**
 
 **Dependencies**
 
-- Requests now supports urllib3 v1.25.2.
-  (note: 1.25.0 and 1.25.1 are incompatible)
-
 **Deprecations**
 
-- Requests has officially stopped support for Python 3.4.
+
+0.1.0 (2020-03-06)
+-------------------
+
+Genesis

@@ -4,7 +4,9 @@ This short script will obtain all properties on wikidata and save them in the ./
 
 import requests
 from tqdm import tqdm
+from datetime import datetime
 with requests.Session() as s:
+    print("Queried at {}.".format(datetime.now()))
     for i in tqdm(range(8000)):
         url = "https://www.wikidata.org/wiki/Special:EntityData/P" + \
             str(i) + ".json"

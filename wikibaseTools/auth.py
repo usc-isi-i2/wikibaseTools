@@ -15,7 +15,7 @@ class Authenticator():
         """
         pass
 
-    def authenticate(self, endpointUrl: str = "http://localhost:8181", resourceUrl: str = "/w/api.php", credentialPath: str = "./.crendentials.json") -> str:
+    def authenticate(self, endpointUrl: str = "http://localhost:8181", resourceUrl: str = "/w/api.php", credentialPath: str = "./.credentials.json") -> str:
         """authenticate() performs the authentication sequence using the credentials in the .credentials.json file. This function returns the CSRF token which should be placed in the `token` field for editing interactions with wikibase endpoints. 
 
         :param endpointUrl: defaults to "http://localhost:8181"
@@ -24,8 +24,9 @@ class Authenticator():
         :type resourceUrl: str, optional
         :param credentialPath: defaults to "./.crendentials.json"
         :type credentialPath: str, optional
-        :return: csrfToken: This token required for editing operations
+        :return: csrfToken:  Token required for editing operations.
         :rtype: str
+        :return: apiUrl: API URL fed into core.EntityEditor()
         """
         with open(credentialPath, 'rt') as crendentials:
             data = json.load(crendentials)
@@ -61,4 +62,4 @@ class Authenticator():
         }
         data = requests.get(url=apiUrl, params=parameters).json()
         csrfToken = data["query"]["tokens"]["csrftoken"]
-        return csrfToken
+        return csrfToken, apiUrl

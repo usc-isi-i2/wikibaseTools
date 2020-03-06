@@ -1,1 +1,553 @@
-{"entities":{"P7890":{"pageid":83281553,"ns":120,"title":"Property:P7890","lastrevid":1123651293,"modified":"2020-02-25T19:47:05Z","type":"property","datatype":"url","id":"P7890","labels":{"fr":{"language":"fr","value":"identifiant 8-bits.info"},"en":{"language":"en","value":"8-bits.info URL"},"ru":{"language":"ru","value":"8-bits.info ID"},"ca":{"language":"ca","value":"identificador 8-bits.info"},"nl":{"language":"nl","value":"8-bits.info-identificatiecode"}},"descriptions":{"fr":{"language":"fr","value":"identifiant d\u2019un jeu vid\u00e9o dans la base de donn\u00e9es 8-bits.info"},"en":{"language":"en","value":"identifier of a video game in the 8-bits.info ddatabase"},"ru":{"language":"ru","value":"\u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u043e\u0439 \u0438\u0433\u0440\u044b \u0432 \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445 8-bits.info"}},"aliases":{},"claims":{"P3254":[{"mainsnak":{"snaktype":"value","property":"P3254","datavalue":{"value":"https://www.wikidata.org/wiki/Wikidata:Property_proposal/8-bits_ID","type":"string"},"datatype":"url"},"type":"statement","id":"P7890$9E703F18-870B-4A87-A929-0B2F265E3D68","rank":"normal","references":[{"hash":"aea5bbb2a6ce839d4fa1410006a011fb9a7e38a2","snaks":{"P4656":[{"snaktype":"value","property":"P4656","datavalue":{"value":"https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/8-bits_ID&oldid=1105415878","type":"string"},"datatype":"url"}]},"snaks-order":["P4656"]}]}],"P1629":[{"mainsnak":{"snaktype":"value","property":"P1629","datavalue":{"value":{"entity-type":"item","numeric-id":83000021,"id":"Q83000021"},"type":"wikibase-entityid"},"datatype":"wikibase-item"},"type":"statement","id":"P7890$3141E1FA-C2F5-49B7-80D7-C42229D47DA7","rank":"normal","references":[{"hash":"aea5bbb2a6ce839d4fa1410006a011fb9a7e38a2","snaks":{"P4656":[{"snaktype":"value","property":"P4656","datavalue":{"value":"https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/8-bits_ID&oldid=1105415878","type":"string"},"datatype":"url"}]},"snaks-order":["P4656"]}]}],"P2429":[{"mainsnak":{"snaktype":"value","property":"P2429","datavalue":{"value":{"entity-type":"item","numeric-id":21873974,"id":"Q21873974"},"type":"wikibase-entityid"},"datatype":"wikibase-item"},"type":"statement","id":"P7890$5EE690DB-7D46-4399-B347-F0FC88935322","rank":"normal","references":[{"hash":"aea5bbb2a6ce839d4fa1410006a011fb9a7e38a2","snaks":{"P4656":[{"snaktype":"value","property":"P4656","datavalue":{"value":"https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/8-bits_ID&oldid=1105415878","type":"string"},"datatype":"url"}]},"snaks-order":["P4656"]}]}],"P1896":[{"mainsnak":{"snaktype":"value","property":"P1896","datavalue":{"value":"http://www.8-bits.info/gamelist/","type":"string"},"datatype":"url"},"type":"statement","id":"P7890$A2DE72DA-2FD7-4E07-BE83-F8FF30BD0687","rank":"normal","references":[{"hash":"aea5bbb2a6ce839d4fa1410006a011fb9a7e38a2","snaks":{"P4656":[{"snaktype":"value","property":"P4656","datavalue":{"value":"https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/8-bits_ID&oldid=1105415878","type":"string"},"datatype":"url"}]},"snaks-order":["P4656"]}]}],"P4876":[{"mainsnak":{"snaktype":"value","property":"P4876","datavalue":{"value":{"amount":"+2146","unit":"1"},"type":"quantity"},"datatype":"quantity"},"type":"statement","qualifiers":{"P585":[{"snaktype":"value","property":"P585","hash":"35a76f2803c98aac93b1b149b43c3cf4d4149d49","datavalue":{"value":{"time":"+2020-01-01T00:00:00Z","timezone":0,"before":0,"after":0,"precision":10,"calendarmodel":"http://www.wikidata.org/entity/Q1985727"},"type":"time"},"datatype":"time"}]},"qualifiers-order":["P585"],"id":"P7890$0112B5A5-D01A-4F28-B808-072785F8A9DA","rank":"normal","references":[{"hash":"aea5bbb2a6ce839d4fa1410006a011fb9a7e38a2","snaks":{"P4656":[{"snaktype":"value","property":"P4656","datavalue":{"value":"https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/8-bits_ID&oldid=1105415878","type":"string"},"datatype":"url"}]},"snaks-order":["P4656"]}]}],"P2302":[{"mainsnak":{"snaktype":"value","property":"P2302","datavalue":{"value":{"entity-type":"item","numeric-id":21503250,"id":"Q21503250"},"type":"wikibase-entityid"},"datatype":"wikibase-item"},"type":"statement","qualifiers":{"P2309":[{"snaktype":"value","property":"P2309","hash":"8d7afee22e0fa6211dd8c95f247e1dd7b38daf70","datavalue":{"value":{"entity-type":"item","numeric-id":21503252,"id":"Q21503252"},"type":"wikibase-entityid"},"datatype":"wikibase-item"}],"P2308":[{"snaktype":"value","property":"P2308","hash":"a5fce2520ac94e3d74dda685e30ad3f5ee5756ab","datavalue":{"value":{"entity-type":"item","numeric-id":7889,"id":"Q7889"},"type":"wikibase-entityid"},"datatype":"wikibase-item"}]},"qualifiers-order":["P2309","P2308"],"id":"P7890$841D663B-0315-41BC-A44F-D7FF5CC20ACF","rank":"normal","references":[{"hash":"aea5bbb2a6ce839d4fa1410006a011fb9a7e38a2","snaks":{"P4656":[{"snaktype":"value","property":"P4656","datavalue":{"value":"https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/8-bits_ID&oldid=1105415878","type":"string"},"datatype":"url"}]},"snaks-order":["P4656"]}]},{"mainsnak":{"snaktype":"value","property":"P2302","datavalue":{"value":{"entity-type":"item","numeric-id":21503247,"id":"Q21503247"},"type":"wikibase-entityid"},"datatype":"wikibase-item"},"type":"statement","qualifiers":{"P2306":[{"snaktype":"value","property":"P2306","hash":"2849c353073a641c3ef9394c9c7842603a3c1a85","datavalue":{"value":{"entity-type":"property","numeric-id":400,"id":"P400"},"type":"wikibase-entityid"},"datatype":"wikibase-property"}]},"qualifiers-order":["P2306"],"id":"P7890$5b0fcc47-4feb-e7ab-89d1-9aedfb7771a6","rank":"normal"},{"mainsnak":{"snaktype":"value","property":"P2302","datavalue":{"value":{"entity-type":"item","numeric-id":21503247,"id":"Q21503247"},"type":"wikibase-entityid"},"datatype":"wikibase-item"},"type":"statement","qualifiers":{"P2306":[{"snaktype":"value","property":"P2306","hash":"783f78dba79e8b158d5716788f983d677c5e90a0","datavalue":{"value":{"entity-type":"property","numeric-id":136,"id":"P136"},"type":"wikibase-entityid"},"datatype":"wikibase-property"}]},"qualifiers-order":["P2306"],"id":"P7890$b44b2bf3-40b7-5342-4de7-925e3487807b","rank":"normal"},{"mainsnak":{"snaktype":"value","property":"P2302","datavalue":{"value":{"entity-type":"item","numeric-id":21503247,"id":"Q21503247"},"type":"wikibase-entityid"},"datatype":"wikibase-item"},"type":"statement","qualifiers":{"P2306":[{"snaktype":"value","property":"P2306","hash":"cf77cca31fc714ed9df02723d5e89fb6743f06e9","datavalue":{"value":{"entity-type":"property","numeric-id":495,"id":"P495"},"type":"wikibase-entityid"},"datatype":"wikibase-property"}]},"qualifiers-order":["P2306"],"id":"P7890$7bee7105-4160-a4ec-b299-5e821b84d204","rank":"normal"}],"P31":[{"mainsnak":{"snaktype":"value","property":"P31","datavalue":{"value":{"entity-type":"item","numeric-id":19847637,"id":"Q19847637"},"type":"wikibase-entityid"},"datatype":"wikibase-item"},"type":"statement","id":"P7890$2EE924AE-9FE8-475C-BA2C-CE11B91CFEE8","rank":"normal","references":[{"hash":"aea5bbb2a6ce839d4fa1410006a011fb9a7e38a2","snaks":{"P4656":[{"snaktype":"value","property":"P4656","datavalue":{"value":"https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/8-bits_ID&oldid=1105415878","type":"string"},"datatype":"url"}]},"snaks-order":["P4656"]}]},{"mainsnak":{"snaktype":"value","property":"P31","datavalue":{"value":{"entity-type":"item","numeric-id":28147643,"id":"Q28147643"},"type":"wikibase-entityid"},"datatype":"wikibase-item"},"type":"statement","id":"P7890$46993b74-4cf7-e1fa-4218-7f3e69c81008","rank":"normal"}],"P1855":[{"mainsnak":{"snaktype":"value","property":"P1855","datavalue":{"value":{"entity-type":"item","numeric-id":7760408,"id":"Q7760408"},"type":"wikibase-entityid"},"datatype":"wikibase-item"},"type":"statement","qualifiers":{"P7890":[{"snaktype":"value","property":"P7890","hash":"ab22019e3957d1c96c0306cbb750ced367dc1d98","datavalue":{"value":"http://www.8-bits.info/gamelist/PC88/info/info_YMSkYrbV2BbDeAku.php","type":"string"},"datatype":"url"}]},"qualifiers-order":["P7890"],"id":"P7890$b06cc580-4881-3c7a-deca-ca2da1d5338c","rank":"normal"},{"mainsnak":{"snaktype":"value","property":"P1855","datavalue":{"value":{"entity-type":"item","numeric-id":11540014,"id":"Q11540014"},"type":"wikibase-entityid"},"datatype":"wikibase-item"},"type":"statement","qualifiers":{"P7890":[{"snaktype":"value","property":"P7890","hash":"07258390dcd40e7d53764864e3fa67338eaa6ee0","datavalue":{"value":"http://www.8-bits.info/gamelist/PC88/info/info_NDea63MpuujE9mbi.php","type":"string"},"datatype":"url"}]},"qualifiers-order":["P7890"],"id":"P7890$7a85ce3d-45b8-f373-03ea-450142007ff7","rank":"normal"}]}}}}
+{
+  "entities": {
+    "P7890": {
+      "pageid": 83281553,
+      "ns": 120,
+      "title": "Property:P7890",
+      "lastrevid": 1123651293,
+      "modified": "2020-02-25T19:47:05Z",
+      "type": "property",
+      "datatype": "url",
+      "id": "P7890",
+      "labels": {
+        "fr": { "language": "fr", "value": "identifiant 8-bits.info" },
+        "en": { "language": "en", "value": "8-bits.info URL" },
+        "ru": { "language": "ru", "value": "8-bits.info ID" },
+        "ca": { "language": "ca", "value": "identificador 8-bits.info" },
+        "nl": { "language": "nl", "value": "8-bits.info-identificatiecode" }
+      },
+      "descriptions": {
+        "fr": {
+          "language": "fr",
+          "value": "identifiant d\u2019un jeu vid\u00e9o dans la base de donn\u00e9es 8-bits.info"
+        },
+        "en": {
+          "language": "en",
+          "value": "identifier of a video game in the 8-bits.info ddatabase"
+        },
+        "ru": {
+          "language": "ru",
+          "value": "\u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u043e\u0439 \u0438\u0433\u0440\u044b \u0432 \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445 8-bits.info"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P3254": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3254",
+              "datavalue": {
+                "value": "https://www.wikidata.org/wiki/Wikidata:Property_proposal/8-bits_ID",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "P7890$9E703F18-870B-4A87-A929-0B2F265E3D68",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "aea5bbb2a6ce839d4fa1410006a011fb9a7e38a2",
+                "snaks": {
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "datavalue": {
+                        "value": "https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/8-bits_ID&oldid=1105415878",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": ["P4656"]
+              }
+            ]
+          }
+        ],
+        "P1629": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1629",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 83000021,
+                  "id": "Q83000021"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "P7890$3141E1FA-C2F5-49B7-80D7-C42229D47DA7",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "aea5bbb2a6ce839d4fa1410006a011fb9a7e38a2",
+                "snaks": {
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "datavalue": {
+                        "value": "https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/8-bits_ID&oldid=1105415878",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": ["P4656"]
+              }
+            ]
+          }
+        ],
+        "P2429": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2429",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21873974,
+                  "id": "Q21873974"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "P7890$5EE690DB-7D46-4399-B347-F0FC88935322",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "aea5bbb2a6ce839d4fa1410006a011fb9a7e38a2",
+                "snaks": {
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "datavalue": {
+                        "value": "https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/8-bits_ID&oldid=1105415878",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": ["P4656"]
+              }
+            ]
+          }
+        ],
+        "P1896": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1896",
+              "datavalue": {
+                "value": "http://www.8-bits.info/gamelist/",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "P7890$A2DE72DA-2FD7-4E07-BE83-F8FF30BD0687",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "aea5bbb2a6ce839d4fa1410006a011fb9a7e38a2",
+                "snaks": {
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "datavalue": {
+                        "value": "https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/8-bits_ID&oldid=1105415878",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": ["P4656"]
+              }
+            ]
+          }
+        ],
+        "P4876": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4876",
+              "datavalue": {
+                "value": { "amount": "+2146", "unit": "1" },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "35a76f2803c98aac93b1b149b43c3cf4d4149d49",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-01-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 10,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": ["P585"],
+            "id": "P7890$0112B5A5-D01A-4F28-B808-072785F8A9DA",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "aea5bbb2a6ce839d4fa1410006a011fb9a7e38a2",
+                "snaks": {
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "datavalue": {
+                        "value": "https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/8-bits_ID&oldid=1105415878",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": ["P4656"]
+              }
+            ]
+          }
+        ],
+        "P2302": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2302",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21503250,
+                  "id": "Q21503250"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2309": [
+                {
+                  "snaktype": "value",
+                  "property": "P2309",
+                  "hash": "8d7afee22e0fa6211dd8c95f247e1dd7b38daf70",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 21503252,
+                      "id": "Q21503252"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P2308": [
+                {
+                  "snaktype": "value",
+                  "property": "P2308",
+                  "hash": "a5fce2520ac94e3d74dda685e30ad3f5ee5756ab",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 7889,
+                      "id": "Q7889"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": ["P2309", "P2308"],
+            "id": "P7890$841D663B-0315-41BC-A44F-D7FF5CC20ACF",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "aea5bbb2a6ce839d4fa1410006a011fb9a7e38a2",
+                "snaks": {
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "datavalue": {
+                        "value": "https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/8-bits_ID&oldid=1105415878",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": ["P4656"]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2302",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21503247,
+                  "id": "Q21503247"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2306": [
+                {
+                  "snaktype": "value",
+                  "property": "P2306",
+                  "hash": "2849c353073a641c3ef9394c9c7842603a3c1a85",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 400,
+                      "id": "P400"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                }
+              ]
+            },
+            "qualifiers-order": ["P2306"],
+            "id": "P7890$5b0fcc47-4feb-e7ab-89d1-9aedfb7771a6",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2302",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21503247,
+                  "id": "Q21503247"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2306": [
+                {
+                  "snaktype": "value",
+                  "property": "P2306",
+                  "hash": "783f78dba79e8b158d5716788f983d677c5e90a0",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 136,
+                      "id": "P136"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                }
+              ]
+            },
+            "qualifiers-order": ["P2306"],
+            "id": "P7890$b44b2bf3-40b7-5342-4de7-925e3487807b",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2302",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21503247,
+                  "id": "Q21503247"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2306": [
+                {
+                  "snaktype": "value",
+                  "property": "P2306",
+                  "hash": "cf77cca31fc714ed9df02723d5e89fb6743f06e9",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 495,
+                      "id": "P495"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                }
+              ]
+            },
+            "qualifiers-order": ["P2306"],
+            "id": "P7890$7bee7105-4160-a4ec-b299-5e821b84d204",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19847637,
+                  "id": "Q19847637"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "P7890$2EE924AE-9FE8-475C-BA2C-CE11B91CFEE8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "aea5bbb2a6ce839d4fa1410006a011fb9a7e38a2",
+                "snaks": {
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "datavalue": {
+                        "value": "https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/8-bits_ID&oldid=1105415878",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": ["P4656"]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 28147643,
+                  "id": "Q28147643"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "P7890$46993b74-4cf7-e1fa-4218-7f3e69c81008",
+            "rank": "normal"
+          }
+        ],
+        "P1855": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1855",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7760408,
+                  "id": "Q7760408"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P7890": [
+                {
+                  "snaktype": "value",
+                  "property": "P7890",
+                  "hash": "ab22019e3957d1c96c0306cbb750ced367dc1d98",
+                  "datavalue": {
+                    "value": "http://www.8-bits.info/gamelist/PC88/info/info_YMSkYrbV2BbDeAku.php",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "qualifiers-order": ["P7890"],
+            "id": "P7890$b06cc580-4881-3c7a-deca-ca2da1d5338c",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1855",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 11540014,
+                  "id": "Q11540014"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P7890": [
+                {
+                  "snaktype": "value",
+                  "property": "P7890",
+                  "hash": "07258390dcd40e7d53764864e3fa67338eaa6ee0",
+                  "datavalue": {
+                    "value": "http://www.8-bits.info/gamelist/PC88/info/info_NDea63MpuujE9mbi.php",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "qualifiers-order": ["P7890"],
+            "id": "P7890$7a85ce3d-45b8-f373-03ea-450142007ff7",
+            "rank": "normal"
+          }
+        ]
+      }
+    }
+  }
+}
