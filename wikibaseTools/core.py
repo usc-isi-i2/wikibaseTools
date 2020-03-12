@@ -38,12 +38,23 @@ class EntityEditor:
             parameters["data"] = json.dumps({"datatype": dataType})
         else:
             parameters["data"] = json.dumps({})
-        r = self.session.post(self.apiUrl, data=parameters).json()
-        print(r)
-        if 'error' in r:
-            return "error"
-        else:
-            return r["entity"]["id"]
+        res = self.session.post(self.apiUrl, data=parameters).json()
+        try:
+            return res["entity"]["id"]
+        except:
+            return res
+
+    def clearEntity(self, entityID: str) -> bool:
+        parameters = {
+            'action': "wbeditentity",
+            'format': "json",
+            "clear": True,
+            'token': self.csrfToken,
+            "id": entityID,
+        }
+        parameters["data"] = json.dumps({})
+        res = self.session.post(self.apiUrl, data=parameters).json()
+        return res["success"]
 
     def checkExistence(self, entityID: str) -> bool:
         """Check the existence of a SINGLE entity.
@@ -65,9 +76,38 @@ class EntityEditor:
             return False
         return True
 
+    def getDataType(self, entityID: str) -> str:
+        parameters = {
+            'action': 'wbgetentities',
+            'format': 'json',
+            'props': "datatype",
+            "ids": entityID,
+            'redirects': "yes"
+        }
+        res = self.session.get(self.apiUrl, params=parameters).json()
+        if "success" in res:
+            return res["entities"][entityID]["datatype"]
+        else:
+            return None
+
+    def setAlias(self, entityID: str, alias) -> str:
+        '''
+        alias separated by '|'
+        '''
+        parameters = {
+            "action": "wbsetaliases",
+            "id": entityID,
+            "set": alias,
+            "language": "en",
+            "format": "json",
+            "token": self.csrfToken
+        }
+        res = self.session.post(self.apiUrl, params=parameters).json()
+        return res
+
     def writeStatement(self, entityID: str, dataDict={}, checkExistence: bool = True) -> bool:
         """write a statement
-        
+
         :param entityID: [description]
         :type entityID: str
         :param dataDict: [description], defaults to {}
@@ -76,11 +116,20 @@ class EntityEditor:
         :type checkExistence: bool, optional
         :return: [description]
         :rtype: bool
-        """        
+        """
         if checkExistence:
             if not self.checkExistence(entityID):
                 print("No entity with ID {} exists.".format(entityID))
                 return False
+        parameters = {
+            "action": "wbeditentity",
+            "id": entityID,
+            "data": json.dumps(dataDict),
+            "token": self.csrfToken,
+            "format": "json"
+        }
+        res = self.session.post(self.apiUrl, data=parameters).json()
+        return res
 
     def deleteEntity(self, entityID: str, asAdmin: bool = False) -> bool:
         """delete an entity from a wikibase where the user has administrator privilege

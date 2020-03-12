@@ -1,7 +1,7 @@
 .credentials.json
 .vscode
 tests/__pycache__/*
-wikibaseTools/__pycache__/*
+wikibaseTools/__pycache__/*.pyc
 *.ipynb
 .ipynb_checkpoints
 build/
