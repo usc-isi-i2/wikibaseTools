@@ -1,33 +1,48 @@
 import requests
 import simplejson as json
 from wikibaseTools.core import EntityEditor
-from wikibaseTools.auth import Authenticator
 from glob import glob
 import os
 
 
 class WDImporter():
-    """[summary]
+    """Import Wikidata properties into proprietary wikibase instance
+
     """
 
-    def __init__(self, apiUrl, csrfToken):
+    def __init__(self, apiUrl: str, csrfToken: str):
+        """initialize the instance with api url and CSRF token which can be obtained from Authenticator() class in the `auth` module.
+
+        :param apiUrl: The API URL
+        :type apiUrl: str
+        :param csrfToken: CSRF token
+        :type csrfToken: str
+        """
         self.editor = EntityEditor(apiUrl, csrfToken)
-        print("WARNING: Before calling `importWikiDataProperty()`, please make sure you have a CLEAN wikibase instance.")
+        print("WARNING!\nBefore calling `importWikiDataProperty()`, please make sure your wikibase instance is CLEAN!.")
         self.apiUrl = apiUrl
         self.csrfToken = csrfToken
 
     @staticmethod
-    def extractID(jsonPath):
+    def extractID(jsonPath: str) -> int:
+        """obtain the ID from a given json file path. For example, xxx/yyy/zzz/P123.json will return 13 as an integer.
+
+        :param jsonPath: path to the dumped json file.
+        :type jsonPath: str
+        :return: 
+        :rtype: [type]
+        """
         return int(os.path.basename(jsonPath).split(".")[0][1:])
 
-    def importWikiDataProperty(self, jsonDir: str = "data/wikidataProperties") -> bool:
-        """import the wikidata properties stored as json files in a local folder.
-
-        :param jsonDir: directory of json files, defaults to "data/wikidataProperties"
-        :type jsonDir: str, optional
-        :return whether importing is successful or not
-        :rtype: bool
-        """
+    def importWikiDataProperty(self, jsonDir: str = "data/wikidataProperties"):
+        nonsupportedDataTypes = ["math",
+                                 "wikibase-lexeme",
+                                 "wikibase-form",
+                                 "wikibase-sense",
+                                 "musical-notation",
+                                 "globe-coordinate",
+                                 "tabular-data",
+                                 "geo-shape"]
         editor = EntityEditor(apiUrl=self.apiUrl, csrfToken=self.csrftoken)
         jsons = glob(os.path.abspath(jsonDir) + "/*.json")
         jsonIDs = set([WDImporter.extractID(js) for js in jsons])
@@ -48,15 +63,16 @@ class WDImporter():
                     # create property P{i}
 
                     idealDataType = prop["entities"]["P"+str(i)]["datatype"]
-                    if idealDataType in ["math","wikibase-lexeme","wikibase-form","wikibase-sense"]:
-                        print("Error create entity with id {}, will create a plain one with string dataType.".format(i))
+                    if idealDataType in nonsupportedDataTypes:
+                        print(
+                            "Error create entity with id {}, will create a plain one with string dataType.".format(i))
                         idealID = editor.createEntity(
                             entityType="property", dataType="string")
-                        assert("P"+str(i) == idealID)
+                        print(i, idealID)
                     else:
                         idealID = editor.createEntity(
                             entityType="property", dataType=idealDataType)
-                        assert("P"+str(i) == idealID)
+                        print(i, idealID)
                 else:
                     # the property Pi exists but the dataType has to match
                     # if dataType not agree, through warning
@@ -65,6 +81,7 @@ class WDImporter():
                     if idealDataType != existedDataType:
                         print("Datatype of existed property P{} {} doesn't match wikidata property {}".format(
                             i, existedDataType, idealDataType))
+
                 editor.clearEntity("P"+str(i))
 
                 # create basics: labels, descriptions, aliases
@@ -80,7 +97,7 @@ class WDImporter():
                     res = editor.writeStatement(
                         entityID="P"+str(i), dataDict=dataDict, checkExistence=False)
                 except:
-                    print("Error writing labels/descriptions for id {}: ".format(i), res)
+                    print("Error writing labels/descriptions for id {}".format(i), res)
 
     def importWikiDataPropertyClaims(self, propertyID: str, jsonDir: str = "data/wikidataProperties") -> bool:
         """import Properties of WikiDataProperties. If the string is 
